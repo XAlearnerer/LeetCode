@@ -21,15 +21,15 @@ public:
 };
 
 
-int main()
-{
-	vector<int> v = { 2, 7, 11, 15 };
-	int target = 9;
-	Solution n;
-
-	vector<int> v2 = n.twoSum(v, target);
-
-	for (auto i : v2)
-		cout << i << " ";
-	return 0;
-}
+//int main()
+//{
+//	vector<int> v = { 2, 7, 11, 15 };
+//	int target = 9;
+//	Solution n;
+//
+//	vector<int> v2 = n.twoSum(v, target);
+//
+//	for (auto i : v2)
+//		cout << i << " ";
+//	return 0;
+//}
