@@ -76,7 +76,7 @@ private:
 };
 
 
-int main()
+int main1709()
 {
 	vector<int> v = { -1, 0, 1, 2, -1, -4 };
 	Solution n;
