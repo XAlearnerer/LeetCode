@@ -26,7 +26,7 @@ public:
 
 
 
-int main()
+int main2138()
 {
     int integer=1534236469;
     Solution n;
