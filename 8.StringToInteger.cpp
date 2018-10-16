@@ -82,7 +82,7 @@ public:
     }
 };
 
-int main()
+int main2237()
 {
     string s="-2147483647";
 
