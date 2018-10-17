@@ -39,7 +39,7 @@ public:
 
 
 
-int main()
+int main0934()
 {
     string s="pwwkew";
     Solution n;
