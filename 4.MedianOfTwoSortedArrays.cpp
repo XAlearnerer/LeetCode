@@ -59,7 +59,7 @@ public:
 
 };
 
-int main()
+int main1034()
 {
     vector<int> a={};
     vector<int> b={1};
