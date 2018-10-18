@@ -61,7 +61,7 @@ public:
     }
 };
 
-int main()
+int main1050()
 {
     int a=1010;
     Solution n;
