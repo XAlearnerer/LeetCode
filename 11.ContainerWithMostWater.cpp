@@ -32,7 +32,7 @@ public:
 
 
 
-int main()
+int main0459()
 {
     vector<int> a={1,8,6,2,5,4,8,3,7};
     Solution n;
