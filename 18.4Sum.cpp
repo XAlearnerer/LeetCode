@@ -51,11 +51,7 @@ public:
 //其特点是不能有重复，如果新加入的数在set中原本就存在的话，插入操作就会失败，
 //这样能很好的避免的重复项的存在。此题的O(n ^ 3)解法的思路跟3Sum 三数之和基本没啥区别，
 //就是多加了一层for循环，其他的都一样，代码如下：
-
-
-
-
-class Solution {
+class Solution2 {
 public:
 	vector<vector<int>> fourSum(vector<int> &nums, int target) {
 		set<vector<int>> res;
@@ -80,7 +76,7 @@ public:
 	}
 };
 
-int main()
+int main2039()
 {
 	vector<int> v = { 1, 0, -1, 0, -2, 2 };
 	int target = 0;
@@ -94,7 +90,7 @@ int main()
 			cout << j << " ";
 		cout << endl;
 	}
-
+	return 0;
 }
 
 

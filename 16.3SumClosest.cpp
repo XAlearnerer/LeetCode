@@ -43,7 +43,7 @@ public:
 
 
 
-int main1008()
+int main1108()
 {
 	vector<int> v = { -1, 2, 1, -4 };
 	int target = 1;
