@@ -23,7 +23,7 @@ public:
 
 
 
-int main()
+int main1040()
 {
     string s="III";
     Solution n;
