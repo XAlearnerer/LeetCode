@@ -39,7 +39,7 @@ public:
 };
 
 
-int main()
+int main1646()
 {
 	vector<int> v = {1,1,2};
 	int target = 1;
