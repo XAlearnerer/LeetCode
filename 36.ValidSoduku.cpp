@@ -32,3 +32,51 @@ public:
 
     }
 };
+
+class Solution2 {
+public:
+    bool isValidSudoku(vector<vector<char>>& board) {
+        for (size_t i = 0; i < 9; i += 3) {
+            for (size_t j = 0; j < 9; j += 3) {
+                vector<bool> m(9);
+                for (size_t I = i; I < i+3; ++I) {
+                    for (size_t J = j; J < j+3; ++J) {
+                        char ch = board[I][J];
+                        if (ch != '.') {
+                            if (m[ch]) {
+                                return false;
+                            }
+                            else {
+                                m[ch] = true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        for (size_t i = 0; i < 9; ++i) {
+            vector<bool> m(9), m2(9);
+            for (size_t j = 0; j < 9; ++j) {
+                char ch = board[i][j];
+                if (ch != '.') {
+                    if (m[ch]) {
+                        return false;
+                    }
+                    else {
+                        m[ch] = true;
+                    }
+                }
+                char ch2 = board[j][i];
+                if (ch2 != '.') {
+                    if (m2[ch2]) {
+                        return false;
+                    }
+                    else {
+                        m2[ch2] = true;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+};
