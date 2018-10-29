@@ -54,7 +54,7 @@ public:
             if(target>=candidates[i])
             {
                 combination.push_back(candidates[i]);
-                combinationSum(candidates,target-candidates[i],res,combination,i);
+				combinationSum(candidates, target - candidates[i], res, combination, i);
                 combination.pop_back();
             }
 
