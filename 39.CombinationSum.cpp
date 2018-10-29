@@ -63,7 +63,7 @@ public:
     }
 };
 
-int main()
+int main1721()
 {
     vector<int> v1={2,3,5};
     Solution n;
