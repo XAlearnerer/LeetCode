@@ -41,6 +41,7 @@ public:
         combinationSum(candidates, target, res, combination, 0);
         return res;
     }
+
     void combinationSum(vector<int> &candidates, int target, vector<std::vector<int> > &res,
                         vector<int> &combination, int begin)
     {
@@ -49,9 +50,9 @@ public:
             return;
         }
 
-        for(int i=begin;i!=candidates.size();++i)
+		for (int i = begin; i != candidates.size(); ++i)
         {
-            if(target>=candidates[i])
+			if (target >= candidates[i])
             {
                 combination.push_back(candidates[i]);
 				combinationSum(candidates, target - candidates[i], res, combination, i);
@@ -69,7 +70,7 @@ int main1721()
     Solution n;
     vector<vector<int> >vv=n.combinationSum(v1,8);
     for(auto i:vv) {
-        for (auto j:i)
+		for (auto j : i)
             cout << j << " ";
         cout<<endl;
     }

@@ -16,16 +16,16 @@ public:
                     for (int j = 0; j != 9; ++j) {
                             if(board[i][j]=='.')
                                     continue;
-                            int num=board[i][j]-'0'-1;
+							int num = board[i][j] - '0' - 1;
                             if(row[i][num])
                                     return false;
-                            row[i][num]=true;
-                            if(col[num][j])
+							row[i][num] = true;
+							if (col[num][j])
                                     return false;
-                            col[num][j]=true;
-                            if(box[(i/3)*3+j/3][num])
+							col[num][j] = true;
+							if (box[(i / 3) * 3 + j / 3][num])
                                     return false;
-                            box[(i/3)*3+j/3][num]=true;
+							box[(i / 3) * 3 + j / 3][num] = true;
                     }
             }
             return true;
