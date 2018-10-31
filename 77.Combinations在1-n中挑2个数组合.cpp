@@ -21,7 +21,7 @@ public:
 			return;
 		}
 
-		for (int i = begin; i <= n - (k - combination.size()) + 1; i++) //¼ôÖ¦
+		for (int i = begin; i <= n - (k - combination.size()) + 1; i++) //å‰ªæ
 		//for (int i = begin; i <= n; ++i)
 		{
 			combination.push_back(i);
