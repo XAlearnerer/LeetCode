@@ -32,13 +32,21 @@ public:
 				combination.pop_back();
 			}
 		}
+		//for (int i = begin; i != candidates.size() && target >= candidates[i]; ++i)
+		//	if (i == begin || candidates[i] != candidates[i - 1]) {
+		//		combination.push_back(candidates[i]);
+		//		combinationSum2(candidates, target - candidates[i], res, combination, i + 1);
+		//		combination.pop_back();
+		//	}
 	}
+
+
 
 };
 
 
 
-int main()
+int main1547()
 {
 	vector<int> v1 = { 2,5,2,1,2 };
 	Solution n;
