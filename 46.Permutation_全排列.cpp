@@ -6,7 +6,7 @@ class Solution {
 public:
 	vector<vector<int>> permute(vector<int>& nums) {
 		vector<vector<int> >res;
-		Per(res,0, nums);
+		Per(res, 0, nums);
 		return res;
 	}
 	void Per(vector<vector<int> > &res,int begin, vector<int> nums)
@@ -21,7 +21,7 @@ public:
 		{
 			swap(nums[begin], nums[i]);
 			Per(res ,begin + 1, nums);
-			//swap(nums[begin], nums[i]);
+			swap(nums[begin], nums[i]);
 		}
 	}
 };

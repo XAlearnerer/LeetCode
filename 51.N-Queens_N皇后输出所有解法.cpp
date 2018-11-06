@@ -52,7 +52,7 @@ public:
 	}
 };
 
-int main()
+int main1635()
 {
 	Solution n;
 	vector<vector<string> >vv = n.solveNQueens(4);
