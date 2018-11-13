@@ -70,7 +70,7 @@ public:
 };
 
 
-int main()
+int main1116()
 {
     string s="babad";
     Solution n;
