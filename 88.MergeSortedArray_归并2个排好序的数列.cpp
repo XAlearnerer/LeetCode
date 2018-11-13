@@ -57,4 +57,5 @@ int main2038()
     for(auto i:n1)
         cout<<i<<" $ ";
     cout<<endl;
+	return 0;
 }
