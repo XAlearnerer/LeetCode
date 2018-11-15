@@ -57,7 +57,7 @@ public:
 };
 
 
-int main()
+int main2108()
 {
 	string s = "aa";
 	string p = "a*";

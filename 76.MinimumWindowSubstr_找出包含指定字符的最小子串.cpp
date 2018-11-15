@@ -5,7 +5,8 @@
 #include <iostream>
 #include <string>
 #include<unordered_map>
-#include<Windows.h>
+//#include<Windows.h>
+#include <limits.h>
 using  namespace std;
 
 class Solution {
