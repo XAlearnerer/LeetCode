@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-
 using  namespace std;
 
 struct ListNode {
@@ -13,25 +12,47 @@ struct ListNode {
 };
 
 
-class Solution {
+
+class Solution2 {
 public:
     ListNode* swapPairs(ListNode* head) {
-        ListNode* a=head;
-        ListNode* tmp;
-        while(a->next)
+		ListNode **pp = &head;
+		ListNode *a, *b;
+		while ((a = *pp) && (b = a->next))
         {
-            tmp=a->next;
-            a->next=a;
-            a=tmp;
-            a=a->next;
-            cout<<a->val<<endl;
+			a->next = b->next;
+			b->next = a;
+			*pp = b;
+			pp = &(a->next);
         }
         return head;
-
     }
 };
 
-int main() {
+
+class Solution {
+public:
+	ListNode* swapPairs(ListNode* head) {
+		ListNode *dd= new ListNode(-1);
+		dd->next = head;
+		ListNode *pre = dd;
+		while (pre->next && pre->next->next)
+		{
+			ListNode *tmp = pre->next->next;
+			pre->next->next = tmp->next;
+			tmp->next = pre->next;
+			pre->next = tmp;
+			pre = tmp->next;
+		}
+
+		return dd->next;
+	}
+};
+
+
+
+
+int main1634() {
     ListNode *a = new ListNode(1);
     a->next = new ListNode(2);
     a->next->next = new ListNode(3);
@@ -47,4 +68,5 @@ int main() {
     }
     cout<<endl;
 
+	return 0;
 }

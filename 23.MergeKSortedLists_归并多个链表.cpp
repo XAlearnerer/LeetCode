@@ -14,53 +14,21 @@ struct ListNode {
 };
 
 
-class Solution2 {
-public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        ListNode* res=new ListNode(-1);
-        ListNode* b=res;
-        while(!lists.empty())
-             kmerge(lists,res);
-
-        return b->next;
-    }
-
-    void kmerge(vector<ListNode*>& lists,ListNode* cur)
-    {
-        if(lists.size()==1) cur->next=lists[0];
-        int mini=-1,minval=INT_MAX;
-        for(int i=0;i!=lists.size();++i)
-        {
-            if(lists[i]->val<minval)
-            {
-                minval=lists[i]->val;
-                mini=i;
-            }
-        }
-        cur->next=lists[mini];
-        cur=cur->next;
-        if(!lists[mini]->next)
-        {
-            lists.erase(find(lists.begin(),lists.end(),lists[mini]));
-        }
-        else
-            lists[mini]=lists[mini]->next;
-    }
-};
-
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if(lists.empty()) return {};
-        int k=0;
-        for(int i=0;i!=lists.size();++i)
+		//int ls = lists.size();
+		int i = 0;
+		while (i < lists.size())
         {
-            if(lists[i]==NULL) {
-                lists.erase(find(lists.begin(),lists.end(),lists[i]));
-                ++k;
-            }
+			if (lists[i] == NULL) {
+				lists.erase(find(lists.begin(), lists.end(), lists[i]));
+			}
+			else
+				++i;
         }
-        if(k==lists.size()) return {};
+		if (lists.empty()) return {};
 
 
         ListNode* cur=new ListNode(-1);
@@ -71,7 +39,7 @@ public:
             int mini=-1,minval=INT_MAX;
             for(int i=0;i!=lists.size();++i)
             {
-                if(lists[i]->val<minval)
+				if (lists[i]->val < minval)
                 {
                     minval=lists[i]->val;
                     mini=i;
@@ -90,7 +58,7 @@ public:
     }
 };
 
-int main1643()
+int main2026()
 {
     ListNode *a=new ListNode(1);
     a->next=new ListNode(4);
@@ -109,9 +77,9 @@ int main1643()
     ListNode *d=new ListNode(1);
     d->next=NULL;
 
-    ListNode *e=NULL;
+	ListNode *e = NULL;
 
-    vector<ListNode*> lists ={d,e};
+	vector<ListNode*> lists = { d,e };
     Solution n;
     ListNode *r=n.mergeKLists(lists);
 

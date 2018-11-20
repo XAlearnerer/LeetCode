@@ -49,19 +49,13 @@ public:
 	}
 };
 
-class Solution {
-public:
-	bool isMatch(string s, string p) {
-
-	}
-};
 
 
 int main2108()
 {
 	string s = "aa";
 	string p = "a*";
-	Solution n;
+	Solution2 n;
 	cout << n.isMatch(s, p) << endl;
 	return 0;
 }

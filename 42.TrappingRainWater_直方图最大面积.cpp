@@ -7,6 +7,7 @@ using namespace std;
 
 #include <stack>
 #include <limits.h>
+#include<Windows.h>
 
 //单调栈
 
