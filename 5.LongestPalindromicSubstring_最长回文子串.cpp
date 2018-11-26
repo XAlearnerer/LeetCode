@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-//#include<Windows.h>
+#include<Windows.h>
 using  namespace std;
 
 
@@ -17,8 +17,8 @@ public:
 
         for(int i=0;i!=str.length();++i)
         {
-            if(i<mx)
-                v[i]=min(v[2*id-i],mx-i);
+			if (i < mx)
+				v[i] = min(v[2 * id - i], mx - i);
             else
                 v[i]=1;
 
