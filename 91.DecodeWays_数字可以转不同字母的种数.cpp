@@ -23,7 +23,7 @@ public:
     }
 };
 
-int main()
+int main1729()
 {
     string s="0";
     Solution n;
