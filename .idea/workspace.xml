@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.TwoSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.RegularExpressionMatching_使用点星进行字符串匹配.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100.SameTree_判断两个树是否相同.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.ContainerWithMostWater.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.IntergerToRoman.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.RomanToInterger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.LongestCommonPrefix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.3Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.3SumClosest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.4Sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.RemoveNthNodeFromEndOfList_删除列表倒数第N个节点.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.AddTwoNumbers_2个链表相加.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20.ValidParentheses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.MergeTwoLists_归并两个链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22.GenerateParentheses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23.MergeKSortedLists_归并多个链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24.SwapNodesInPairs_链表中每两个节点交换位置.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25.ReverseNnodesInKGroups_每k个倒置链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/26.RemoveDuplicatesFromSortedArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/27.RemoveElement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/28.Implement_strStr().cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.LongestSubstringWithoutRepeatingCharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/31.NextPermutation_下一组排列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/32.LongestValidParentheses_最长合理的括号长度.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/33.SearchInRotatedSortedArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/34.FindFirstAndLastPositionOfElementInSortedArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/35.SearchInsertPosition.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/36.ValidSoduku.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/37.SudokuSolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/38.CountAndSay.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/39.CombinationSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.MedianOfTwoSortedArrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40.CombinationSum2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/41.FirstMissingPositive.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42.TrappingRainWater_直方图最大面积.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/43.MultiplyStrings数字字符串相乘.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/44.WildcardMatching_星号问号字符匹配.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/45.JumpGame2_最小跳数从数组开头跳到结尾.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/46.Permutation_全排列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47.Permutation2_有重复数字的全排列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/48.RotateImage_矩阵顺时钟旋转90度.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/49.GroupAnagrams_找出相同字母组合的字符串.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.LongestPalindromicSubstring_最长回文子串.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/50.pow(x,n).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/51.N-Queens_N皇后输出所有解法.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/52.N-Queen2_N皇后输出解法数目.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/53.MaximumSubarray数组中和最大的连续子序列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/54.SpiralMatrix_旋转输出矩阵.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/55.JumpGame_能否从数组开头跳跃到结尾.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/56.MergeIntervals_合并重叠的区间.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/57.InsertIntervals_合并原区间与插入的区间.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/58.LengthOfLastWord_最后一个单词的长度.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/59.SpiralMatrix2_由数字给出旋转矩阵.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60.PermutationSequence_全排列后按大小排列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/61.RotateList_旋转链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/62.UniquePath_只使用向右向下从矩形左上角到右下角的方法数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/63.UniquePath2_有障碍时的方法数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/64.MinimumPathSum_最短路径.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/66.PlusOne_加法.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/67.AddBinary_二进制加法.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.ReverseInteger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/70.ClimbingStairs_斐波拉切数列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/72.EditDistance_改变一个字符串使其匹配另一个字符串的最少操作数目.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/73.SetMatrixZeroes_将矩阵内存在0的行列均改为0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/74.SearchA2DMatrix_搜索二维数组.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/75.SortColors_0,1,2的排序.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/76.MinimumWindowSubstr_找出包含指定字符的最小子串.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/77.Combinations在1-n中挑2个数组合.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/78.Subsets_数组的全部子数组.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.StringToInteger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/80.RemoveDuplicateFromSortedArray2_数组中最多不超过2次.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/81.SearchInRotatedArray2_旋转数组的查找.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/82.RemoveDuplicatesFromSortedList2_删除链表中的重复元素.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/83.RemoveDuplicatesFromSortedLists_从链表中删除重复元素.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/84.LargestRectangleInHistogram_直方图中最大面积.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/85.MaximalRetangle_矩阵中最大的1所在的区域大小.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/86.PartitonLists_将链表中小于特定值的放在前列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/88.MergeSortedArray_归并2个排好序的数列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/89.GrayCode_格雷码.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.palindromeNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/90.SubSets2_有重复字符的字符组的全部子串.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91.DecodeWays_数字可以转不同字母的种数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/92.ReverseLinkedList2_倒置链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/93.RestoredIpAddress_Ip地址分配.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/94.BinaryTreeInorderTraversal_二叉树中序便历.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/95.UniqueBinarySearchTrees2_二叉树.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/96.UniqueBinarySearchTree_二叉树数目.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/97.InterleavingString_判断字符串是否由另两个字符串交叉合并得来.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/98.ValidateBinarySearchTree_判断是否为二叉搜索树.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/1.TwoSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1249019747">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="465" />
+    <option name="y" value="43" />
+    <option name="width" value="798" />
+    <option name="height" value="514" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="" />
+      <created>1545320035365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545320035365</updated>
+      <workItem from="1545320036595" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.190629" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
