@@ -51,12 +51,3 @@ public:
 };
 
 
-int main()
-{
-    string be="lost";
-    string en="cost";
-    vector<string> v={"most","fist","lost","cost","fish"};
-    Solution n;
-    cout<<n.ladderLength(be,en,v)<<endl;
-    return 0;
-}
