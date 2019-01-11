@@ -6,10 +6,7 @@
 #include <vector>
 using namespace std;
 
-
-
-
-class Solution {
+class Solution2 {
 public:
     int numIslands(vector<vector<char>>& grid) {
         if(grid.empty() || grid[0].empty())
@@ -27,7 +24,6 @@ public:
             }
         return islandnum;
     }
-
     void helper(vector<vector<char>> &grid, int i, int j, vector<vector<int>> &v)
     {
         v[i][j]=1;
@@ -42,3 +38,32 @@ public:
     }
 };
 
+
+class Solution {
+public:
+    int numIslands(vector<vector<char> > &grid) {
+        if (grid.empty() || grid[0].empty()) return 0;
+        int m = grid.size(), n = grid[0].size(), res = 0;
+        vector<vector<bool> > visited(m, vector<bool>(n, false));
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] == '1' && !visited[i][j]) {
+                    helper(grid, visited, i, j);
+                    ++res;
+                }
+            }
+        }
+        return res;
+    }
+
+    void helper(vector<vector<char>> &grid,vector<vector<bool>>& v,int i,int j)
+    {
+        if(i<0 || j<0 || i>grid.size()-1 || j>grid[0].size()-1)return;
+        if(grid[i][j]!='1' || v[i][j]==1) return;
+        v[i][j]=1;
+        helper(grid,v,i+1,j);
+        helper(grid,v,i,j+1);
+        helper(grid,v,i-1,j);
+        helper(grid,v,i,j-1);
+    }
+};
