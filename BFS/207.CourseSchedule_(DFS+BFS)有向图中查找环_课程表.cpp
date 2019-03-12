@@ -51,8 +51,7 @@ public:
 		}
 		for (int i = 0; i < numCourses; ++i)
 		{
-			//if (!dfs(graph, visit, i))
-			if (!canFinishDFS(graph, visit, i))
+			if (!dfs(graph, visit, i))
 				return false;
 		}
 		return true;
@@ -69,24 +68,8 @@ public:
 		visit[i] = -1;
 		for (int j = 0; j != graph[i].size(); ++j)
 		{
-			if (!dfs(graph, visit, j))
+			if (!dfs(graph, visit, graph[i][j]))
 				return false;
-		}
-		visit[i] = 1;
-		return true;
-	}
-	bool canFinishDFS(vector<vector<int> > &graph, vector<int> &visit, int i) {
-		if (visit[i] == -1) return false;
-		if (visit[i] == 1) return true;
-		visit[i] = -1;
-		//for (auto a : graph[i]) {
-		//	if (!canFinishDFS(graph, visit, a)) return false;
-		//}
-	//? ???
-		//for (int j = 0; j < graph[i].size(); ++j)
-		for (auto j : graph[i])
-		{
-			if (!canFinishDFS(graph, visit, j)) return false;
 		}
 		visit[i] = 1;
 		return true;
