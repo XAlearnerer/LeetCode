@@ -90,7 +90,7 @@ public:
 	}
 };
 
-int main()
+int main1058()
 {
 	string s = "a";
 	string p = "";

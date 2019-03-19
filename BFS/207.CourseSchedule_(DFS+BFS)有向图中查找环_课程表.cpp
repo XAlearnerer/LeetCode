@@ -76,7 +76,7 @@ public:
 	}
 };
 
-class Solution {
+class Solution3 {
 public:
 	bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
 		vector<vector<int> > graph(numCourses, vector<int>(0));

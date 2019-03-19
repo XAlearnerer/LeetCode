@@ -68,7 +68,7 @@ public:
     }
 };
 
-int main1031()
+int main1032()
 {
     string num1="9";
     string num2="98";
