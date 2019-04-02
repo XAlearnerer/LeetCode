@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +63,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="17145" />
+          <entry key="ObjectiveC" value="17339" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -78,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="322">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -268,12 +264,12 @@
       <workItem from="1553599801300" duration="9678000" />
       <workItem from="1553652746081" duration="4424000" />
       <workItem from="1554126907311" duration="3400000" />
-      <workItem from="1554193295052" duration="4499000" />
+      <workItem from="1554193295052" duration="5024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100002000" />
+    <option name="totallyTimeSpent" value="100527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,17 +333,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/main.cpp" />
@@ -616,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="322">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>

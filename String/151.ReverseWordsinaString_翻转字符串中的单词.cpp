@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution2 {
 public:
     string reverseWords(string s) {
         if(s.empty()) return "";
@@ -57,4 +57,48 @@ public:
 };
 
 
+class Solution {
+public:
+    string reverseWords(string s) {
+        if(s.empty()) return "";
+        vector<string> v;
+        string res="";
+        string word;
+        for(auto a:s)
+        {
+            if(a==' ' && word.length()>0)
+            {
+                v.push_back(word);
+                word="";
+            }
+            else if(a!=' ')
+            {
+                word+=a;
+            }
+        }
+        if(word.length()>0)
+            v.push_back(word);
+
+
+        for(int i=v.size()-1;i>=0;--i)
+        {
+            if(i!=0)
+                res=res+v[i]+" ";
+            else
+                res+=v[i];
+        }
+        return res;
+
+    }
+};
+
+
+//int main()
+//{
+//    string s="  hello world! ";
+//    Solution n;
+//    cout<<n.reverseWords(s)<<endl;
+//    return 0;
+//
+//}
 
