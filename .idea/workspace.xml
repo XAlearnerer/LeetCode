@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/115.DistinctSubSequences_不同的子序列组成另一个字符串的种数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,22 +42,23 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="ObjectiveC" value="78" />
+          <entry key="ObjectiveC" value="83" />
           <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
@@ -63,19 +66,19 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="17339" />
+          <entry key="ObjectiveC" value="18580" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp">
+        <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_不同的子序列组成另一个字符串的种数.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="149">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -146,11 +149,9 @@
         <option value="$PROJECT_DIR$/../CMakeLists.txt" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/perpare/code.h" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019.cpp" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/solution.h" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/perpare/code.cpp" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.h" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.cpp" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp" />
         <option value="$PROJECT_DIR$/../ns3/excel实际值" />
         <option value="$PROJECT_DIR$/../ns3/excel计算值" />
         <option value="$PROJECT_DIR$/../ns3/excelpath信息" />
@@ -158,6 +159,11 @@
         <option value="$PROJECT_DIR$/../ns3/excel数据准备.cpp" />
         <option value="$PROJECT_DIR$/../ns3/excel处理2" />
         <option value="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" />
+        <option value="$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp" />
+        <option value="$PROJECT_DIR$/String/115.DistinctSubSequences_不同的子序列.cpp" />
+        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp" />
+        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/solution.h" />
+        <option value="$PROJECT_DIR$/String/115.DistinctSubSequences_不同的子序列组成另一个字符串的种数.cpp" />
       </list>
     </option>
   </component>
@@ -168,7 +174,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="465" />
     <option name="y" value="43" />
     <option name="width" value="798" />
@@ -264,12 +270,14 @@
       <workItem from="1553599801300" duration="9678000" />
       <workItem from="1553652746081" duration="4424000" />
       <workItem from="1554126907311" duration="3400000" />
-      <workItem from="1554193295052" duration="5024000" />
+      <workItem from="1554193295052" duration="6420000" />
+      <workItem from="1554210316393" duration="502000" />
+      <workItem from="1554253945395" duration="5220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100527000" />
+    <option name="totallyTimeSpent" value="107645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,15 +289,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
+    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22657253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23170732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,8 +343,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/testmain.cpp" />
     <entry file="file://$PROJECT_DIR$/../ns3/进度条.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -502,20 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="850" column="48" selection-start-line="850" selection-start-column="48" selection-end-line="850" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -542,13 +534,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/excel处理">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newflows.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,8 +586,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="1520">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="29" lean-forward="true" selection-end-line="873" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_不同的子序列组成另一个字符串的种数.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
