@@ -11,16 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/415.AddString_string类型整数求和.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +38,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
@@ -294,12 +285,12 @@
       <workItem from="1554193295052" duration="6420000" />
       <workItem from="1554210316393" duration="502000" />
       <workItem from="1554253945395" duration="25144000" />
-      <workItem from="1554341054707" duration="6318000" />
+      <workItem from="1554341054707" duration="6996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133887000" />
+    <option name="totallyTimeSpent" value="134565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,21 +303,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26893452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26893452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33546734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32394367" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
