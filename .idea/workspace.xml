@@ -12,13 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_Table/205.IsomorphicStrings_同构字符串.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_Table/217.ContainDuplicate_判断是否包含重复值.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_Table/219.ContainsDuplicate2_判断重复值.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_Table/242.ValidAnagram_变位词.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/415.AddString_string类型整数求和.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +47,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
@@ -55,15 +56,15 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
           <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="106" />
+          <entry key="ObjectiveC" value="114" />
           <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
@@ -71,7 +72,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="22008" />
+          <entry key="ObjectiveC" value="23728" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -80,13 +81,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp">
+        <entry file="file://$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#37#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -179,8 +177,14 @@
         <option value="$PROJECT_DIR$/Hash_Table/217.ContainDuplicate_判断是否包含重复值.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/219.ContainsDuplicate2_判断重复值.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/205.IsomorphicStrings_同构字符串.cpp" />
-        <option value="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp" />
+        <option value="$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp" />
+        <option value="$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp" />
+        <option value="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" />
+        <option value="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" />
+        <option value="$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp" />
+        <option value="$PROJECT_DIR$/String/415.AddString_string类型整数求和.cpp" />
+        <option value="$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp" />
       </list>
     </option>
   </component>
@@ -191,7 +195,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="465" />
     <option name="y" value="43" />
     <option name="width" value="798" />
@@ -202,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,18 +222,13 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Hash_Table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,12 +293,13 @@
       <workItem from="1554126907311" duration="3400000" />
       <workItem from="1554193295052" duration="6420000" />
       <workItem from="1554210316393" duration="502000" />
-      <workItem from="1554253945395" duration="24467000" />
+      <workItem from="1554253945395" duration="25144000" />
+      <workItem from="1554341054707" duration="6318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126892000" />
+    <option name="totallyTimeSpent" value="133887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,15 +311,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
+    <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26572528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26893452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33546734" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,40 +365,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../code/config_1/car.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/config_10/cross.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/config_10/road.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/config_10/car.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/config_10/answer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40607" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/code.cpp" />
     <entry file="file://$PROJECT_DIR$/../code/config/answer.txt" />
     <entry file="file://$PROJECT_DIR$/../code/config/road.txt" />
     <entry file="file://$PROJECT_DIR$/../code/config/car.txt" />
@@ -518,16 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -605,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,19 +577,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hash_Table/202.HappyNumber.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Hash_Table/202.HappyNumber.cpp" />
     <entry file="file://$PROJECT_DIR$/Hash_Table/242.ValidAnagram_变位词.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -649,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,6 +606,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
@@ -677,21 +638,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="218">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="62" selection-end-column="3" />
           <folding>
             <element signature="e#36#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp">
+    <entry file="file://$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="329">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/415.AddString_string类型整数求和.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

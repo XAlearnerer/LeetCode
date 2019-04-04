@@ -53,11 +53,11 @@ public:
     }
 };
 
-int main()
-{
-    string pattern = "abba", str = "dog cat cat dog";
-    Solution n;
-    cout<<n.wordPattern(pattern,str)<<endl;
-
-    return 0;
-}
+//int main()
+//{
+//    string pattern = "abba", str = "dog cat cat dog";
+//    Solution n;
+//    cout<<n.wordPattern(pattern,str)<<endl;
+//
+//    return 0;
+//}
