@@ -12,12 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Backtracking/140.WordBreak2_字符按照字典输出.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/216.CombinationSum3_组合3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/40.CombinationSum2_组合2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-100/39.CombinationSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1-100/39.CombinationSum.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,24 +43,24 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="Disassembly" value="3" />
-          <entry key="ObjectiveC" value="129" />
+          <entry key="Disassembly" value="4" />
+          <entry key="ObjectiveC" value="158" />
           <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
@@ -70,16 +68,28 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="25617" />
+          <entry key="ObjectiveC" value="28742" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#37#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Backtracking/140.WordBreak2_字符按照字典输出.cpp">
+        <entry file="file://$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -129,9 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/road.cpp" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/car.h" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/road.h" />
         <option value="$PROJECT_DIR$/../code/CodeCraft-2019/cross.h" />
         <option value="$PROJECT_DIR$/../ns3/进度条.cpp" />
         <option value="$PROJECT_DIR$/../code/config/road.txt" />
@@ -180,6 +187,9 @@
         <option value="$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/40.CombinationSum2_组合2.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/216.CombinationSum3_组合3.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest131.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp" />
+        <option value="$PROJECT_DIR$/Backtracking/140.WordBreak2_字符串拆分2.cpp" />
       </list>
     </option>
   </component>
@@ -201,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,22 +228,26 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/zhao/MyCode/ns3/excel处理2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DFS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DFS" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,12 +306,14 @@
       <workItem from="1554253945395" duration="25144000" />
       <workItem from="1554341054707" duration="6996000" />
       <workItem from="1554370891097" duration="246000" />
-      <workItem from="1554473684058" duration="10297000" />
+      <workItem from="1554473684058" duration="11207000" />
+      <workItem from="1554556429947" duration="156000" />
+      <workItem from="1554602565471" duration="14902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145108000" />
+    <option name="totallyTimeSpent" value="161076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,7 +328,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25866497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20410784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +342,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2765685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32394367" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32394367" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,124 +379,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/perpare/code.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="559" lean-forward="true" selection-start-line="559" selection-end-line="560" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/perpare/code.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2396">
-          <caret line="1328" column="43" selection-start-line="1328" selection-start-column="43" selection-end-line="1328" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4776">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/cartopo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/topology50.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excel处理">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newflows.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excel数据准备.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excelpath信息">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="635" column="13" selection-start-line="635" selection-start-column="13" selection-end-line="635" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newtopology.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excel计算值">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="591" column="9" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excel实际值">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="599" column="43" selection-start-line="599" selection-start-column="43" selection-end-line="599" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/excel处理2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="29" lean-forward="true" selection-end-line="873" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/solution.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_(DP)不同的子序列组成另一个字符串的种数.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -658,19 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="56" column="53" lean-forward="true" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,9 +584,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Backtracking/140.WordBreak2_字符按照字典输出.cpp" />
+    <entry file="file://$PROJECT_DIR$/contest131.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/103.BinaryTreeZigzagLevelOrderTraversal_层次交替便利.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/199.BinaryTreeRightSideView_二叉树最右侧节点数据.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/173.BinarySearchTreeInterator_BST迭代器.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/124.BinaryTreeMaximumPathSum_二叉树中和最大的路径.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/117.PopulatingNextRightPointsInEachPoint2_二叉树中每一个点设置向右的指针.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/113.PathSum2_找出路径之和为给定值的路径.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/112.PathSum_判断路径之和是否为给定的值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/116.PopulatingNextRightPointsInEachPoint_二叉树中每一个点设置向右的指针.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/111.MinmumDepthOfBinaryTree_查找二叉树的最小深度.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/105.ConstructBinaryTreeFromInorderAndPreorderTraversal_由先序和中序遍历建立二叉树.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree_Traversal/94.BinaryTreeInorderTraversal_中序遍历.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-742" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/216.CombinationSum3_组合3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
+        <state relative-caret-position="191">
           <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
@@ -711,7 +651,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backtracking/140.WordBreak2_字符按照字典输出.cpp">
+    <entry file="file://$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#36#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/129.SumRootToLeafNumbers_二叉树根到叶子之和.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-100/56.MergeIntervals_合并重叠的区间.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
