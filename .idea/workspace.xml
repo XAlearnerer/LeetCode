@@ -12,10 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/0.heap_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/217.KthLargestElementInAnArray_队列中第看k大的值.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +60,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="158" />
+          <entry key="Disassembly" value="6" />
+          <entry key="ObjectiveC" value="170" />
           <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
@@ -68,7 +69,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="28742" />
+          <entry key="ObjectiveC" value="30569" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -76,21 +77,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -139,10 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/cross.h" />
-        <option value="$PROJECT_DIR$/../ns3/进度条.cpp" />
-        <option value="$PROJECT_DIR$/../code/config/road.txt" />
-        <option value="$PROJECT_DIR$/../code/config/cross.txt" />
         <option value="$PROJECT_DIR$/../code/config/car.txt" />
         <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/car_topology.cpp" />
         <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/carflows.cpp" />
@@ -190,6 +182,10 @@
         <option value="$PROJECT_DIR$/~WeeklyContest/contest131.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp" />
         <option value="$PROJECT_DIR$/Backtracking/140.WordBreak2_字符串拆分2.cpp" />
+        <option value="$PROJECT_DIR$/Heap/heap_test.cpp" />
+        <option value="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" />
+        <option value="$PROJECT_DIR$/Heap/217.KthLargestElementInAnArray_队列中第看k大的值.cpp" />
+        <option value="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" />
       </list>
     </option>
   </component>
@@ -200,7 +196,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="465" />
     <option name="y" value="43" />
     <option name="width" value="798" />
@@ -228,7 +224,7 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,12 +304,12 @@
       <workItem from="1554370891097" duration="246000" />
       <workItem from="1554473684058" duration="11207000" />
       <workItem from="1554556429947" duration="156000" />
-      <workItem from="1554602565471" duration="14902000" />
+      <workItem from="1554602565471" duration="24789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161076000" />
+    <option name="totallyTimeSpent" value="170963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,12 +324,12 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20410784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25353017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33546734" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2765685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32394367" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32394367" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -379,55 +375,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_(DP)不同的子序列组成另一个字符串的种数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="316" column="5" selection-start-line="316" selection-start-column="5" selection-end-line="316" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/unordered_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="603" selection-start-line="603" selection-end-line="603" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/hashtable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1347" selection-start-line="1347" selection-end-line="1347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/hashtable_policy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="445" selection-start-line="445" selection-end-line="445" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="5589" selection-start-line="5589" selection-end-line="5589" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/functional_hash.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/127.WordLadder_将一个词逐渐变为另一个的过程.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -532,11 +479,6 @@
         <state relative-caret-position="489">
           <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp">
@@ -690,9 +632,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Heap.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow_plus50.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="340">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
@@ -701,7 +656,56 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/0.heap_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/217.KthLargestElementInAnArray_队列中第看k大的值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-100/84.LargestRectangleInHistogram_直方图中最大面积.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
