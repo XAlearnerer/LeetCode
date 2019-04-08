@@ -11,7 +11,7 @@ using namespace std;
 //runtime error: signed integer overflow: 2147483647 + 2 cannot be represented in type 'int' (solution.cpp)
 //[[1,2,1],[2147483646,2147483647,2147483647]]
 
-class Solution {
+class Solution2 {
 public:
     vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
         if(buildings.empty()) return {};
@@ -44,11 +44,22 @@ public:
     }
 };
 
-int main()
-{
-    vector<vector<int> > b={{0,2147483647,2147483647}};
-    Solution n;
-    n.getSkyline(b);
-    return 0;
+//int main()
+//{
+//    vector<vector<int> > b={{0,2147483647,2147483647}};
+//    Solution n;
+//    n.getSkyline(b);
+//    return 0;
+//
+//}
 
-}
+
+
+class Solution {
+public:
+    vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
+
+
+
+    }
+};
