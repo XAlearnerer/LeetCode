@@ -23,8 +23,8 @@ public:
         int n=s.length(),m=t.length();
         //vector<vector<int>> dp(m+1,vector<int>(n+1,0));
 
-        //vector<vector<long>> dp(m+1,vector<long>(n+1,0));
-        vector<vector<uint>> dp(m+1,vector<uint>(n+1,0));
+        vector<vector<long>> dp(m+1,vector<long>(n+1,0));
+        //vector<vector<uint>> dp(m+1,vector<uint>(n+1,0));
 
 //        int是带符号的，表示范围是：-2147483648到2147483648，即-2^31到2^31次方。
 //        uint则是不带符号的，表示范围是：2^32即0到4294967295。
