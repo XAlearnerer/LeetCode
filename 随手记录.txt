@@ -1,5 +1,33 @@
 
-218£º
-//sort(v.begin(),v.end(),[](pair<int,int> a,pair<int,int> b){ return a.first<b.first;});
-sort(v.begin(),v.end());  /////ÕâÀï pairµÄÄ¬ÈÏÅÅĞòÓ¦¸ÃÊÇ firstÏÈ£¬Èôfirst´óĞ¡Ò»ÖÂ£¬Ôò°´secondÅÅĞò
+218
+pair sortæ’åº
 
+//sort(v.begin(),v.end(),[](pair<int,int> a,pair<int,int> b){ return a.first<b.first;});
+sort(v.begin(),v.end());  /////è¿™é‡Œ pairçš„é»˜è®¤æ’åºåº”è¯¥æ˜¯ firstå…ˆï¼Œè‹¥firstå¤§å°ä¸€è‡´ï¼Œåˆ™æŒ‰secondæ’åº
+
+template<class _T1, class _T2>
+    inline bool
+    operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+    { return __x.first < __y.first
+             || (!(__y.first < __x.first) && __x.second < __y.second); }
+
+
+
+373
+è¿”å›ä¸€ä¸ªå‡åºè¾“å‡º
+priority_queue<int, vector<int>, greater<int> > q;
+        for( int i= 0; i< 10; ++i ) q.push(10-i);
+        while( !q.empty() ){
+             cout << q.top() << endl;
+             q.pop();
+        }
+
+
+451
+string::append() æ·»åŠ æ–‡æœ¬
+    auto t=q.top();
+    res.append(t.first, t.second);
+//            char t=q.top().second;
+//            int n=q.top().first;
+//            for(int i=0;i!=n;++i)
+//                res+=t;

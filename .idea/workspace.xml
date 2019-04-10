@@ -12,9 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/378.KthSmallestElementInASortedMatrix_有序数组中第k小的值.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/313.TopKthFrequentElements_数组中前k个最频繁的值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/347.TopKthFrequentElements_数组中前k个最频繁的值.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/373.FindKPairsWithSmallestSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/373.FindKPairsWithSmallestSum_在两组数组中挑选和最小的组合.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,33 +46,33 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="6" />
+          <entry key="project.open.time.18" value="7" />
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="9" />
+          <entry key="CMakeLists.txt" value="10" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="184" />
-          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="ObjectiveC" value="193" />
+          <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1" />
+          <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="31370" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="ObjectiveC" value="32386" />
+          <entry key="PLAIN_TEXT" value="96" />
         </counts>
       </usages-collector>
     </session>
@@ -76,12 +80,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp">
+        <entry file="file://$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#37#56#0" expanded="true" />
+                <element signature="e#38#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,12 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.h" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/car_cross_road.cpp" />
-        <option value="$PROJECT_DIR$/../ns3/excel实际值" />
-        <option value="$PROJECT_DIR$/../ns3/excel计算值" />
-        <option value="$PROJECT_DIR$/../ns3/excelpath信息" />
-        <option value="$PROJECT_DIR$/../ns3/excel数据准备.cpp" />
         <option value="$PROJECT_DIR$/../ns3/excel处理2" />
         <option value="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" />
         <option value="$PROJECT_DIR$/String/227.BasicCalculator2_运算.cpp" />
@@ -184,6 +182,12 @@
         <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/比较计算值与实际值.cpp" />
         <option value="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" />
         <option value="$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp" />
+        <option value="$PROJECT_DIR$/../CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Heap/373.FindKPairsWithSmallestSum_在两组数组中挑选和最小的组合.cpp" />
+        <option value="$PROJECT_DIR$/Heap/378.KthSmallestElementInASortedMatrix_有序数组中第k小的值.cpp" />
+        <option value="$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp" />
+        <option value="$PROJECT_DIR$/随手记录.txt" />
+        <option value="$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp" />
       </list>
     </option>
   </component>
@@ -205,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,12 +308,13 @@
       <workItem from="1554556429947" duration="156000" />
       <workItem from="1554602565471" duration="28820000" />
       <workItem from="1554723238910" duration="5354000" />
-      <workItem from="1554735095566" duration="4092000" />
+      <workItem from="1554735095566" duration="4599000" />
+      <workItem from="1554880149699" duration="5882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184440000" />
+    <option name="totallyTimeSpent" value="190829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,19 +329,19 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21181001" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20410784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33546734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33546734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2765685" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2765685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32394367" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -375,38 +380,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backtracking/40.CombinationSum2_组合2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backtracking/140.WordBreak2_字符按照字典输出.cpp" />
-    <entry file="file://$PROJECT_DIR$/contest131.cpp" />
-    <entry file="file://$PROJECT_DIR$/Tree/103.BinaryTreeZigzagLevelOrderTraversal_层次交替便利.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/199.BinaryTreeRightSideView_二叉树最右侧节点数据.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/173.BinarySearchTreeInterator_BST迭代器.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/124.BinaryTreeMaximumPathSum_二叉树中和最大的路径.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree/117.PopulatingNextRightPointsInEachPoint2_二叉树中每一个点设置向右的指针.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tree/113.PathSum2_找出路径之和为给定值的路径.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342" />
@@ -636,25 +609,100 @@
         <state relative-caret-position="-180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp">
+    <entry file="file://$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="71" column="83" selection-start-line="71" selection-start-column="83" selection-end-line="71" selection-end-column="83" />
+        <state relative-caret-position="1580">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp">
+    <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="100">
+          <caret line="5" column="4200" selection-start-line="5" selection-start-column="4200" selection-end-line="5" selection-end-column="4200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_function.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="371" column="11" selection-start-line="371" selection-start-column="11" selection-end-line="371" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/373.FindKPairsWithSmallestSum_在两组数组中挑选和最小的组合.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="70" selection-start-line="70" selection-end-line="71" selection-end-column="83" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/378.KthSmallestElementInASortedMatrix_有序数组中第k小的值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/347.TopKthFrequentElements_数组中前k个最频繁的值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随手记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
