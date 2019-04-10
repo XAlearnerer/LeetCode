@@ -3,11 +3,11 @@
 #include<algorithm>
 #include<unordered_map>
 #include<set>
+#include<queue>
 
 using namespace std;
 
-
-class Solution {
+class Solution3 {
 public:
 	vector<int> topKFrequent(vector<int>& nums, int k) {
 		sort(nums.begin(), nums.end());
@@ -24,18 +24,62 @@ public:
 				++m[nums[i]];
 			}
 		}
+		//sort(m.begin(), m.end(), [](pair<int, int> a, pair<int, int> b) {return a.second > b.second; });
 
-		sort(m.begin(), m.end(), [](pair<int, int> a, pair<int, int> b) {return a.second > b.second; });
-		vector<int> res;
-		for (auto i:m)
+		multiset<pair<int, int>> s;
+		for (auto a : m)
 		{
-			res.push_back(i.first);
+			int val = a.first;
+			int fre = a.second;
+
+			s.insert({ fre,val });
+		}
+
+		cout << s.size() << endl;
+		//for(auto q:s)
+		//   cout<<q.first<<" -- "<<q.second<<endl;
+
+		vector<int> res;
+		auto iter = s.rbegin();
+		for (int i = 0; i != k; ++i)
+		{
+			res.push_back(iter->second);
+			++iter;
 		}
 		return res;
 	}
 };
 
+
+
 class Solution {
+public:
+	vector<int> topKFrequent(vector<int>& nums, int k) {
+		vector<int> res;
+		unordered_map<int, int> m;
+		for (auto i : nums)
+		{
+			++m[i];
+		}
+		
+		priority_queue<pair<int, int>>p;
+		for (auto i : m)
+		{
+			p.push({ i.second,i.first });
+		}
+
+		for (int i = 0; i != k; ++i)
+		{
+			res.push_back(p.top().second);
+			p.pop();
+		}
+		return res;
+	}
+};
+
+
+
+class Solution2 {
 public:
 	// Time complexity O(n/g log(k)) where g is measure of average size of group.
 	vector<int> topKFrequent(vector<int>& nums, int k) {

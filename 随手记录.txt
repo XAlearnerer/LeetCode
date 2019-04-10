@@ -1,0 +1,5 @@
+
+218：
+//sort(v.begin(),v.end(),[](pair<int,int> a,pair<int,int> b){ return a.first<b.first;});
+sort(v.begin(),v.end());  /////这里 pair的默认排序应该是 first先，若first大小一致，则按second排序
+
