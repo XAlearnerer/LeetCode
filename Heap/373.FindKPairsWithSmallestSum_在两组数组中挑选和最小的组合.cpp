@@ -70,9 +70,6 @@ public:
             res.push_back(q.top()); q.pop();
         }
         return res;
-
-
-
     }
 
     struct cmp
