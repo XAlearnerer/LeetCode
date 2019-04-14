@@ -6,16 +6,36 @@
 #include <algorithm>
 #include <stack>
 #include<bitset>
+#include <unordered_map>
+
 using namespace std;
 
-class Solution1025 {
+class Solution1025_1 {
 public:
     bool divisorGame(int N) {
-
+        return N%2==0;
     }
 };
 
+class Solution1025_2 {
+public:
+    bool divisorGame(int N) {
+        vector<bool> dp(N+1);
+        dp[0]=false,dp[1]=false;
+        if (N == 1)
+            return false;
+        for(int i = 2; i<=N; ++i)
+        {
+            dp[i]=false;
+            for (int j = i - 1; j >= 1; j--) {
+                if (dp[i - j] == false && i % j == 0)
+                    dp[i] = true;
+            }
+        }
+        return dp[N];
+    }
 
+};
 
 
 struct TreeNode {
@@ -24,9 +44,6 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-
-
-
 class Solution1026 {
 public:
     int maxAncestorDiff(TreeNode* root) {
@@ -84,9 +101,20 @@ public:
 
 
 
-class Solution {
+class Solution1027 {
 public:
     int longestArithSeqLength(vector<int>& A) {
-
+        vector<unordered_map<int, int>> vmap(A.size());
+        int ans = 0;
+        for (int i = 0; i < A.size(); i++) {
+            for (int j = i+1; j < A.size(); j++) {
+                int d = A[i] - A[j];
+                vmap[j][d] = vmap[i][d]+1;
+                ans = max(ans, vmap[j][d]);
+            }
+        }
+        return ans + 1;
     }
 };
+
+

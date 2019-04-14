@@ -122,7 +122,6 @@ public:
         for(auto a:queries)
             v.push_back(check(a,pattern));
         return v;
-
     }
 
     bool check(string s,string pattern)
