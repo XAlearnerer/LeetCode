@@ -12,8 +12,41 @@ using namespace std;
 
 class Solution {
 public:
-    int calculate(string s) {
+	int calculate(string s) {
+		stack<int> numstack,symstack;
+		int num = 0;
+		int res = 0;
+		int sym = 1;
+		for (auto a : s)
+		{
+			if (a >= '0' && a <= '9')
+			{
+				num = 10 * num + (a - '0');
+			}
+			else
+			{
+				res = res + sym*num;
+				num = 0;
+				if (a == '+') sym = 1;
+				if (a == '-') sym = -1;
+				if (a == '(')
+				{
+					numstack.push(res);
+					symstack.push(sym);
+					res = 0;
+					sym = 1;
+				}
+				if (a == ')')
+				{
+					res = res*symstack.top() + numstack.top();
+					symstack.pop();
+					numstack.pop();
+				}
+			}
+		}
 
+		res = res + sym*num;
+		return res;
     }
 };
 
