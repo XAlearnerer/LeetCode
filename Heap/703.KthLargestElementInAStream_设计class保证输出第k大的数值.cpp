@@ -6,6 +6,7 @@
 #include <vector>
 #include <queue>
 #include <algorithm>
+#include<xfunctional>
 
 using namespace std;
 
