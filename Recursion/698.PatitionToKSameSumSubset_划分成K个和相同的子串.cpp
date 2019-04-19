@@ -62,7 +62,7 @@ public:
 //这个剪枝操作大大的提高了运行速度
 
 
-class Solution {
+class Solution { //测试这样反而慢。。。。sort（）
 public:
 	bool canPartitionKSubsets(vector<int>& nums, int k) {
 		sort(nums.begin(), nums.end());
