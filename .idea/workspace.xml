@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/LinkedList/206.ReverseLinkedList_反转链表.cpp" description="public:&#10;    ListNode* reverseList(ListNode* head) ..." line="16" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="MyCode" targetName="MyCode" />
@@ -12,10 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/143.ReorderList_链表重排序.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/203.RemoveLinkedListElements_删除链表元素.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/206.ReverseLinkedList_反转链表.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/237.DeleteNodeinaLinkedList_删除节点_仅仅给出要删除的点.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中的单词.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/151.ReverseWordsinaString_翻转字符串中单词.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/141.LinkedListCycle_判断是否为环形链表.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/141.LinkedListCycle_判断是否为环形链表.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/142.LinkedListCycle2_判断是否为环形列表2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/142.LinkedListCycle2_判断是否为环形列表2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/234.PalindromeLikedList_判断环形链表 .cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/234.PalindromeLikedList_判断环形链表 .cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WeeklyContest/新建文本文档.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +52,11 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="7" />
-          <entry key="project.open.time.19" value="5" />
+          <entry key="project.open.time.19" value="6" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -56,22 +65,22 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="13" />
+          <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="215" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="ObjectiveC" value="227" />
+          <entry key="PLAIN_TEXT" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="Doxygen file" value="4" />
-          <entry key="ObjectiveC" value="34968" />
+          <entry key="Doxygen file" value="8" />
+          <entry key="ObjectiveC" value="35952" />
           <entry key="PLAIN_TEXT" value="96" />
         </counts>
       </usages-collector>
@@ -80,13 +89,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp">
+        <entry file="file://$PROJECT_DIR$/LinkedList/237.DeleteNodeinaLinkedList_删除节点_仅仅给出要删除的点.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -137,11 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/String/126.WordLadder2_文字梯子2.cpp" />
-        <option value="$PROJECT_DIR$/../code/CodeCraft-2019/CodeCraft-2019_test.cpp" />
-        <option value="$PROJECT_DIR$/String/126.WordLadder2_(BFS)文字梯子2.cpp" />
-        <option value="$PROJECT_DIR$/Hash_Table/138.CopyListWithRandomPointer_复制带有随机指针的链表、.cpp" />
-        <option value="$PROJECT_DIR$/Hash_Table/138.CopyListWithRandomPointer_复制带有随机指针的链表.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/202.HappyNumber.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/242.ValidAnagram_变位词.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/217.ContainDuplicate_判断是否包含重复值.cpp" />
@@ -185,9 +186,14 @@
         <option value="$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp" />
         <option value="$PROJECT_DIR$/stack/224.BasicCalculator_公式字符串求解.cpp" />
         <option value="$PROJECT_DIR$/../CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" />
         <option value="$PROJECT_DIR$/Recursion/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp" />
         <option value="$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp" />
+        <option value="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/206.ReverseLinkedList_反转链表.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/143.ReorderList_链表重排序.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/148.SortLists_链表排序.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/203.RemoveLinkedListElements_删除链表元素.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList/237.DeleteNodeinaLinkedList_删除节点_仅仅给出要删除的点.cpp" />
       </list>
     </option>
   </component>
@@ -198,11 +204,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="465" />
-    <option name="y" value="43" />
-    <option name="width" value="798" />
-    <option name="height" value="514" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="123" />
+    <option name="y" value="375" />
+    <option name="width" value="796" />
+    <option name="height" value="506" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -223,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,31 +246,25 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/zhao/MyCode/ns3/excel处理2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/DP" />
       <recent name="$PROJECT_DIR$/DFS" />
     </key>
@@ -339,12 +340,13 @@
       <workItem from="1555040605121" duration="8770000" />
       <workItem from="1555074451683" duration="4120000" />
       <workItem from="1555144363333" duration="679000" />
-      <workItem from="1555724314378" duration="3943000" />
+      <workItem from="1555724314378" duration="4096000" />
+      <workItem from="1555856191026" duration="5538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213426000" />
+    <option name="totallyTimeSpent" value="219117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,10 +358,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
+    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24582799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33119383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +375,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2765685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.2650448" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,47 +412,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-100/56.MergeIntervals_合并重叠的区间.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap.cpp" />
-    <entry file="file://$PROJECT_DIR$/DFS/140.WordBreak2_字符串拆分2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/0.heap_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/217.KthLargestElementInAnArray_队列中第看k大的值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -679,38 +640,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack/224.BasicCalculator_公式字符串求解.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/224.BasicCalculator_公式字符串求解.cpp" />
     <entry file="file://$PROJECT_DIR$/Recursion/698.PatitionToKSameSumSubset_划分成K个和相同的子串.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_(DP)不同的子序列组成另一个字符串的种数.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp">
+    <entry file="file://$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="371">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -719,13 +671,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp">
+    <entry file="file://$PROJECT_DIR$/LinkedList/206.ReverseLinkedList_反转链表.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/141.LinkedListCycle_判断是否为环形链表.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/148.SortLists_链表排序.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/143.ReorderList_链表重排序.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/203.RemoveLinkedListElements_删除链表元素.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/237.DeleteNodeinaLinkedList_删除节点_仅仅给出要删除的点.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
