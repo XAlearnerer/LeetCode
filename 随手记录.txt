@@ -12,7 +12,7 @@ while (n > 1) {
 ///////////////////////////////////////////////////////
 
 95
-NULL 与 nullptr 的区别
+NULL 与 nullptr 的区别?
 if (left > right)
 	return { NULL };
 //  return { nullptr }; Worng
@@ -36,6 +36,20 @@ template<class _T1, class _T2>
     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
     { return __x.first < __y.first
              || (!(__y.first < __x.first) && __x.second < __y.second); }
+
+///////////////////////////////////////////////////////
+
+230
+
+对数据结构的改进
+
+Solution3 的设计，值得再看看
+
+///////////////////////////////////////////////////////
+
+236
+递归的使用
+
 
 ///////////////////////////////////////////////////////
 
