@@ -15,7 +15,7 @@ struct TreeNode {
 };
 
 
-class Solution {
+class Solution2 {
 public:
 	TreeNode* convertBST(TreeNode* root) {
 		if (!root) return NULL;
@@ -47,25 +47,29 @@ public:
 		helper(cur->right, sum);
 	}
 
-
-
 };
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 //我开始想的方法是先求出所有结点值之和，然后开始中序遍历数组，
 //同时用变量sum来记录累加和，根据上面分析的规律来更新所有的数组。
 //但是通过看论坛，发现还有更巧妙的方法，不用先求出的所有的结点值之和，
-//而是巧妙的将中序遍历左根右的顺序逆过来，变成右根左的顺序，
+//而是巧妙的将中序遍历 左根右 的顺序逆过来，变成 右根左 的顺序，
 //这样就可以反向计算累加和sum，同时更新结点值，叼的不行
+
+
+class Solution {
+public:
+	TreeNode* convertBST(TreeNode* root) {
+		if (root)
+		{
+			convertBST(root->right);
+			root->val += sum;
+			sum = root->val;
+			convertBST(root->left);
+		}
+		return root;
+	}
+	int sum = 0;
+};
+
