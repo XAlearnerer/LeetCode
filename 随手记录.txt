@@ -61,7 +61,22 @@ priority_queue<int, vector<int>, greater<int> > q;
              cout << q.top() << endl;
              q.pop();
         }
+
 ///////////////////////////////////////////////////////
+
+449.
+sstream
+
+stringstream 的使用
+
+	if (val == "#") return NULL;
+				注意：：不能是 val == "# "
+	TreeNode* cur = new TreeNode(stoi(val));
+
+
+
+///////////////////////////////////////////////////////
+
 
 451
 string::append() 添加文本
