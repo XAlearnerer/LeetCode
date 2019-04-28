@@ -16,6 +16,59 @@ struct TreeNode {
 };
 
 
+class Solution {
+public:
+	int widthOfBinaryTree(TreeNode* root) {
+		if (!root) return 0;
+		queue<pair<TreeNode*, int> > q;
+		q.push({ root, 1 });
+		int res = 0;
+		while (!q.empty())
+		{
+			res = max(res, q.back().second - q.front().second + 1);
+			int size = q.size();
+
+		//============================
+			//当树很大时，索引值变得很大，在此题中甚至超过long long的范围
+			//这几句是特例，仅针对LeetCode给出的例子的处理：
+					/*	
+						0
+						 0
+						  0
+						   0
+							0
+							 ...
+					*/
+
+			if (size == 1) {
+				q.push({ q.front().first,1 });
+				q.pop();
+			}
+		//============================
+
+			for (int i = 0; i != size; ++i)
+			{
+				auto pi = q.front();
+				q.pop();
+				if (pi.first->left) q.push({ pi.first->left, pi.second * 2 });
+				if (pi.first->right) q.push({ pi.first->right, pi.second * 2 + 1 });
+			}
+		}
+		return res;
+	}
+};
+
+
+
+
+
+
+
+
+
+
+
+
 class Solution2 {  //数组越界
 public:
 	int widthOfBinaryTree(TreeNode* root) {
@@ -38,7 +91,7 @@ public:
 
 
 
-class Solution {
+class Solution3 {
 public:
 	int widthOfBinaryTree(TreeNode* root) {
 		if (!root) return 0;
@@ -53,7 +106,7 @@ public:
 			}
 			ans = max(q.back().second - q.front().second + 1, ans);
 
-			while (size-->0) {
+			while (size-- > 0) {
 				auto node = q.front().first;
 				auto idx = q.front().second;
 				q.pop();
