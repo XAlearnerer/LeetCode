@@ -190,7 +190,7 @@ public:
 			{
 				auto p = q.front();
 				q.pop();
-				if (p.first >= 0 && p.first < 10 ^ 6 && p.second >= 0 && p.second < 10 ^ 6) {
+				if (p.first >= 0 && p.first < (10 ^ 6) && p.second >= 0 && p.second < (10 ^ 6)) {
 					if (visited.find(p) != end(visited) || blocked.find(p) != end(blocked)) continue;
 					visited.insert(p);
 					if (p.first == t[0] && p.second == t[1]) return true;
