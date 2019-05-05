@@ -1,9 +1,23 @@
+contest 131
 1021. Remove Outermost Parentheses          括号判断
 1022. Sum of Root To Leaf Binary Numbers        二叉树二进制数求和
 1023. Camelcase Matching         大写字符串匹配
 1024. Video Stitching        判断intervals能否到达给定值
 
+contest 132
 1025. Divisor Game       判断能不能赢 0 < x < N and N % x == 0
 1026. Maximum Difference Between Node and Ancestor      二叉树祖先与其子节点的差的最大值
 1027. Longest Arithmetic Sequence        最长算数序列，最长等差子序列
-1028. Recover a Tree From Preorder      Traversal 由特殊后序遍历恢复二叉树
+// 1028. Recover a Tree From Preorder      Traversal 由特殊后序遍历恢复二叉树
+
+
+
+contest 134
+1033.移动石子使成为连续序列
+1035.两行平行数字无交叉相同数字连线的种类数
+1036.迷宫逃离
+
+contest 135
+1037.判断三个点在不在一条直线上
+1038.BST到最大树 与654一致
+1039.多边形切割成多个三角形后三角形三个节点积的和的最小值
