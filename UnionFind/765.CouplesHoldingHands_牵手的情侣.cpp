@@ -73,13 +73,3 @@ public:
 		return i;
 	}
 };
-
-
-
-int main()
-{
-	vector<int> r = { 0, 2, 1, 3 };
-	Solution n;
-	cout << n.minSwapsCouples(r) << endl;
-	return 0;
-}
