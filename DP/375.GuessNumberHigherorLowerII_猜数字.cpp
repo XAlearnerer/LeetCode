@@ -4,7 +4,7 @@
 using namespace std;
 
 
-class Solution {
+class Solution2 {
 public:
 	int getMoneyAmount(int n) {
 		vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
