@@ -15,12 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest96(717 718 443).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WeeklyContest/contest133.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/contest133(1029,1030,1031).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/遗留问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/遗留问题.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +45,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="8" />
@@ -59,9 +56,9 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="9" />
+          <entry key="project.open.time.5" value="10" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,26 +66,38 @@
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="6" />
           <entry key="ObjectiveC" value="234" />
-          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="14" />
-          <entry key="ObjectiveC" value="38526" />
-          <entry key="PLAIN_TEXT" value="209" />
+          <entry key="ObjectiveC" value="38983" />
+          <entry key="PLAIN_TEXT" value="327" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="295">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#218#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -140,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hash_Table/219.ContainsDuplicate2_判断重复值.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/205.IsomorphicStrings_同构字符串.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp" />
         <option value="$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp" />
@@ -191,6 +199,7 @@
         <option value="$PROJECT_DIR$/~WeeklyContest/contest96.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" />
+        <option value="$PROJECT_DIR$/遗留问题.txt" />
       </list>
     </option>
   </component>
@@ -237,6 +246,12 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,12 +353,13 @@
       <workItem from="1557481319072" duration="206000" />
       <workItem from="1557652529061" duration="9000" />
       <workItem from="1557652568757" duration="1219000" />
-      <workItem from="1557711179243" duration="7381000" />
+      <workItem from="1557711179243" duration="7669000" />
+      <workItem from="1557731848994" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228455000" />
+    <option name="totallyTimeSpent" value="231481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,19 +374,19 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.275353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27856225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2765685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2765685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2765685" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2765685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -409,9 +425,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newflows.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/进度条.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -548,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/随手记录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -669,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,31 +682,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest133(1029,1030,1031).cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1793">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1793" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnionFind/684.RedundantConnection_删除一条边使无向图变为二叉树.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest96(717 718 443).cpp">
@@ -717,10 +706,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/随手记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="295">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#218#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
         </state>
       </provider>
     </entry>
