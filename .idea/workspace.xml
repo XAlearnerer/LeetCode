@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/遗留问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/遗留问题.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +45,11 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="8" />
-          <entry key="project.open.time.19" value="6" />
+          <entry key="project.open.time.19" value="7" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -58,14 +58,14 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="10" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="234" />
+          <entry key="ObjectiveC" value="236" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
@@ -73,31 +73,22 @@
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="14" />
-          <entry key="ObjectiveC" value="38983" />
+          <entry key="ObjectiveC" value="39665" />
           <entry key="PLAIN_TEXT" value="327" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <element signature="e#218#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="455">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hash_Table/205.IsomorphicStrings_同构字符串.cpp" />
-        <option value="$PROJECT_DIR$/Hash_Table/204.CountPrimes_小于给定值的质数数目.cpp" />
-        <option value="$PROJECT_DIR$/String/387.FirstUniqueCharacterInAString_字符串中第一个唯一的字符.cpp" />
         <option value="$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" />
         <option value="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" />
@@ -200,6 +188,9 @@
         <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp" />
         <option value="$PROJECT_DIR$/遗留问题.txt" />
+        <option value="$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArray_在有重复数字的旋转有序数列中查找最小值.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" />
       </list>
     </option>
   </component>
@@ -354,12 +345,13 @@
       <workItem from="1557652529061" duration="9000" />
       <workItem from="1557652568757" duration="1219000" />
       <workItem from="1557711179243" duration="7669000" />
-      <workItem from="1557731848994" duration="2738000" />
+      <workItem from="1557731848994" duration="2781000" />
+      <workItem from="1557757918122" duration="1722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231481000" />
+    <option name="totallyTimeSpent" value="233246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +366,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27856225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2817715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,16 +417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ns3/进度条.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newtopology.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/topology50.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -699,10 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
           <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-            <marker date="1557718105088" expanded="true" signature="828:1088" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,20 +698,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="215">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#218#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+    <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="355">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
