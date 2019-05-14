@@ -90,11 +90,3 @@ public:
     }
 };
 
-
-int main()
-{
-    vector<int> v={1,3};
-    Solution n;
-    cout<<n.findMin(v)<<endl;
-    return 0;
-}

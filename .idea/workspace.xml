@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/LinkedList/206.ReverseLinkedList_反转链表.cpp" description="public:&#10;    ListNode* reverseList(ListNode* head) ..." line="16" />
-  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="MyCode" targetName="MyCode" />
@@ -15,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" afterDir="false" />
     </list>
@@ -45,8 +43,9 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="8" />
           <entry key="project.open.time.19" value="7" />
@@ -56,39 +55,66 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="10" />
+          <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
-          <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="242" />
+          <entry key="Disassembly" value="8" />
+          <entry key="ObjectiveC" value="252" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="Doxygen file" value="14" />
-          <entry key="ObjectiveC" value="40335" />
+          <entry key="Doxygen file" value="15" />
+          <entry key="ObjectiveC" value="41428" />
           <entry key="PLAIN_TEXT" value="327" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="175">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="5076" column="19" lean-forward="true" selection-start-line="5076" selection-start-column="19" selection-end-line="5076" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="547" selection-start-line="547" selection-end-line="547" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/stl_iterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="747" selection-start-line="747" selection-end-line="747" />
             </state>
           </provider>
         </entry>
@@ -140,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" />
-        <option value="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" />
-        <option value="$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp" />
         <option value="$PROJECT_DIR$/String/415.AddString_string类型整数求和.cpp" />
         <option value="$PROJECT_DIR$/String/459.RepeatedSubstringPattern_判断是否为子串重复.cpp" />
         <option value="$PROJECT_DIR$/String/520.DectectCapital_判断大写字母是否合理.cpp" />
@@ -189,8 +212,11 @@
         <option value="$PROJECT_DIR$/遗留问题.txt" />
         <option value="$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArray_在有重复数字的旋转有序数列中查找最小值.cpp" />
-        <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字、.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp" />
       </list>
     </option>
   </component>
@@ -226,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,12 +373,14 @@
       <workItem from="1557711179243" duration="7669000" />
       <workItem from="1557731848994" duration="2781000" />
       <workItem from="1557757918122" duration="1841000" />
-      <workItem from="1557796760758" duration="2756000" />
+      <workItem from="1557796760758" duration="4669000" />
+      <workItem from="1557837513022" duration="45000" />
+      <workItem from="1557841706425" duration="4512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236121000" />
+    <option name="totallyTimeSpent" value="242591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,19 +395,19 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2605905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22207959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2765685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2765685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23815621" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22791293" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -418,40 +446,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ns3/flow.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/ns3.1000flow_xiugai .cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/cartopo50.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/剔除无用的流.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/比较实际值">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12660">
-          <caret line="633" column="63" selection-start-line="633" selection-start-column="63" selection-end-line="633" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/比较差">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -700,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#218#237#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,27 +707,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+    <entry file="file://$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="340">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+    <entry file="file:///usr/include/c++/5/bits/stl_algobase.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="779" selection-start-line="779" selection-end-line="779" />
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp">
+    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="1840">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="78" selection-start-line="78" selection-end-line="87" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="547" selection-start-line="547" selection-end-line="547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="5076" column="19" lean-forward="true" selection-start-line="5076" selection-start-column="19" selection-end-line="5076" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
