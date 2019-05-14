@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="8" />
@@ -54,18 +54,18 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="10" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="236" />
+          <entry key="ObjectiveC" value="242" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
@@ -73,7 +73,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="14" />
-          <entry key="ObjectiveC" value="39665" />
+          <entry key="ObjectiveC" value="40335" />
           <entry key="PLAIN_TEXT" value="327" />
         </counts>
       </usages-collector>
@@ -82,10 +82,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="275">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/String/344.ReversrString_翻转字符串.cpp" />
         <option value="$PROJECT_DIR$/Hash_Table/290.WordPattern_字母与字符串的匹配.cpp" />
         <option value="$PROJECT_DIR$/String/345.ReverseVowelsOfaString_翻转字符串中的元音字母.cpp" />
         <option value="$PROJECT_DIR$/String/383.RansomNote_从一个字符串挑选部分字符组成另一个.cpp" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArray_在有重复数字的旋转有序数列中查找最小值.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp" />
       </list>
     </option>
   </component>
@@ -346,12 +346,13 @@
       <workItem from="1557652568757" duration="1219000" />
       <workItem from="1557711179243" duration="7669000" />
       <workItem from="1557731848994" duration="2781000" />
-      <workItem from="1557757918122" duration="1722000" />
+      <workItem from="1557757918122" duration="1841000" />
+      <workItem from="1557796760758" duration="2756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233246000" />
+    <option name="totallyTimeSpent" value="236121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +367,29 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2817715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2605905" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2765685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23815621" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32991013" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25930682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,31 +401,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2765685" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23815621" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32991013" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25994864" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33546734" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2765685" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32394367" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -417,16 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/topology50.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/newflows50.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/flow.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -718,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
@@ -727,8 +718,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="355">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="779" selection-start-line="779" selection-end-line="779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/287.FindTheDuolicateNumber_找到重复的数字.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
