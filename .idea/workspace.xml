@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/350.InsersectionOfTwoArraysII_找出交集，包括重复的数值.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
@@ -45,7 +42,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
@@ -55,38 +52,41 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="10" />
-          <entry key="ObjectiveC" value="259" />
-          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="ObjectiveC" value="262" />
+          <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="Doxygen file" value="15" />
-          <entry key="ObjectiveC" value="43163" />
-          <entry key="PLAIN_TEXT" value="383" />
+          <entry key="Doxygen file" value="16" />
+          <entry key="ObjectiveC" value="44024" />
+          <entry key="PLAIN_TEXT" value="490" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="853">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/String/520.DectectCapital_判断大写字母是否合理.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/216.CombinationSum3_数字组合.cpp" />
         <option value="$PROJECT_DIR$/1-100/39.CombinationSum.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp" />
@@ -186,9 +185,10 @@
         <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字、.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/349.InsersectionOfTwoArrays_找出两个数列的交集.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/350.InsersectionOfTwoArraysII_找出交集，包括重复的数值.cpp" />
-        <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp" />
+        <option value="$PROJECT_DIR$/随手记录.txt" />
+        <option value="$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp" />
       </list>
     </option>
   </component>
@@ -199,7 +199,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="123" />
     <option name="y" value="375" />
     <option name="width" value="796" />
@@ -351,12 +351,13 @@
       <workItem from="1557883190460" duration="1880000" />
       <workItem from="1557885515936" duration="436000" />
       <workItem from="1557886342571" duration="1964000" />
-      <workItem from="1557888560244" duration="783000" />
+      <workItem from="1557888560244" duration="1514000" />
+      <workItem from="1557911647023" duration="4287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247773000" />
+    <option name="totallyTimeSpent" value="252791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,7 +372,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23234917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23491655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,7 +384,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22791293" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22791293" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -422,18 +423,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow_plus50.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ns3/3.7_New_topology_flow/carflows.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540" />
@@ -715,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/随手记录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -741,8 +723,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="393">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP/300.LongestIncreasingSequence_最长递增子序列.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随手记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
