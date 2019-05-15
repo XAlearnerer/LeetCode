@@ -60,6 +60,29 @@ Solution3 的设计，值得再看看
 
 ///////////////////////////////////////////////////////
 
+315 BinarySearch
+
+ int insert(node* &root,int v)
+
+///////////////////////////////////////////////////////
+
+
+349 BinarySearch
+
+   std::set_intersection(v1.begin(), v1.end(),
+                         v2.begin(), v2.end(),
+                         std::back_inserter(v_intersection));
+
+///////////////////////////////////////////////////////
+
+367 BinarySearch
+
+ Attention differences between Solution and Solution3
+
+
+///////////////////////////////////////////////////////
+
+
 373
 返回一个升序输出
 priority_queue<int, vector<int>, greater<int> > q;

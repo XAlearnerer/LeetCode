@@ -53,21 +53,23 @@ public:
 
 
 
-class Solution {
+class Solution
+{
 public:
-    struct Node {
+    struct node {
         int val, smaller;
-        Node *left, *right;
-        Node(int v, int s) : val(v), smaller(s), left(NULL), right(NULL) {}
+        node *left, *right;
+        node(int v, int s) : val(v), smaller(s), left(NULL), right(NULL) {}
     };
-    int insert(Node *&root, int v) {
-        if (!root) return (root = new Node(v, 0)), 0;
-        if (root->val > v) return root->smaller++, insert(root->left, v);
+    int insert(node* &root,int v)
+    {
+        if (!root) {root = new node(v, 0);return  0;}
+        if (root->val > v) {root->smaller++; return insert(root->left, v);}
         else return insert(root->right, v) + root->smaller + (root->val < v ? 1 : 0);
     }
     vector<int> countSmaller(vector<int>& nums) {
         vector<int> res(nums.size());
-        Node *root = NULL;
+        node *root = NULL;
         for (int i = nums.size() - 1; i >= 0; --i) {
             res[i] = insert(root, nums[i]);
         }
