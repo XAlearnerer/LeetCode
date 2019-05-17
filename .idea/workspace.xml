@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest73.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
@@ -43,48 +43,48 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="9" />
           <entry key="project.open.time.19" value="7" />
           <entry key="project.open.time.20" value="6" />
-          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="11" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.open.time.5" value="12" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="10" />
-          <entry key="ObjectiveC" value="267" />
-          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="ObjectiveC" value="271" />
+          <entry key="PLAIN_TEXT" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="21" />
-          <entry key="ObjectiveC" value="45006" />
-          <entry key="PLAIN_TEXT" value="627" />
+          <entry key="ObjectiveC" value="45228" />
+          <entry key="PLAIN_TEXT" value="654" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest73.cpp">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+            <state relative-caret-position="540">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -139,9 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1-100/39.CombinationSum.cpp" />
-        <option value="$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp" />
-        <option value="$PROJECT_DIR$/Backtracking/40.CombinationSum2_组合2.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/216.CombinationSum3_组合3.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest131.cpp" />
         <option value="$PROJECT_DIR$/Backtracking/140.WordBreak2_字符串拆分2.cpp" />
@@ -187,9 +184,12 @@
         <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp" />
-        <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest73.cpp" />
+        <option value="$PROJECT_DIR$/随手记录.txt" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" />
+        <option value="$PROJECT_DIR$/../TCP/server.cpp" />
+        <option value="$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="123" />
     <option name="y" value="375" />
     <option name="width" value="796" />
@@ -242,7 +242,7 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="~WeeklyContest" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,12 +354,15 @@
       <workItem from="1557886342571" duration="1964000" />
       <workItem from="1557888560244" duration="1514000" />
       <workItem from="1557911647023" duration="4761000" />
-      <workItem from="1557970694004" duration="5678000" />
+      <workItem from="1557970694004" duration="5748000" />
+      <workItem from="1557993991249" duration="506000" />
+      <workItem from="1558009540212" duration="858000" />
+      <workItem from="1558103106164" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258943000" />
+    <option name="totallyTimeSpent" value="260905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +377,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23748395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24646984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,7 +389,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22791293" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22791293" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -425,27 +428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/5/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_function.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="371" column="11" selection-start-line="371" selection-start-column="11" selection-end-line="371" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="70" selection-start-line="70" selection-end-line="71" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/347.TopKthFrequentElements_数组中前k个最频繁的值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -723,26 +705,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest134(1033,1035,1036).cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3275">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
-        </state>
+        <state relative-caret-position="-3275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
@@ -752,10 +720,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest73.cpp">
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="193">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TCP/client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TCP/server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding>
+            <element signature="e#46#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随手记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
