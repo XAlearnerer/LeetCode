@@ -12,9 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest127(1005-1008).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
@@ -43,7 +44,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="47" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
@@ -53,41 +54,50 @@
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="12" />
+          <entry key="project.open.time.5" value="13" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="14" />
           <entry key="Disassembly" value="10" />
-          <entry key="ObjectiveC" value="271" />
-          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="ObjectiveC" value="280" />
+          <entry key="PLAIN_TEXT" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="Doxygen file" value="21" />
-          <entry key="ObjectiveC" value="45228" />
-          <entry key="PLAIN_TEXT" value="654" />
+          <entry key="Doxygen file" value="25" />
+          <entry key="ObjectiveC" value="47229" />
+          <entry key="PLAIN_TEXT" value="851" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="80">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/随手记录.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -139,10 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Backtracking/216.CombinationSum3_组合3.cpp" />
-        <option value="$PROJECT_DIR$/~WeeklyContest/contest131.cpp" />
-        <option value="$PROJECT_DIR$/Backtracking/140.WordBreak2_字符串拆分2.cpp" />
-        <option value="$PROJECT_DIR$/Heap/heap_test.cpp" />
         <option value="$PROJECT_DIR$/DFS/211.AddAndSearchWord_DataStructureDesign_查找单词数据结构设计.cpp" />
         <option value="$PROJECT_DIR$/Heap/217.KthLargestElementInAnArray_队列中第看k大的值.cpp" />
         <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/new_flow_plus50.cpp" />
@@ -184,12 +190,16 @@
         <option value="$PROJECT_DIR$/BinarySearch/315.CountTheSmallerNumberAfterSelf_找到数列右侧较小数字的数目.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/367.ValidPerfectSquare_判断是否为平方数.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp" />
-        <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest73.cpp" />
-        <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp" />
         <option value="$PROJECT_DIR$/../TCP/server.cpp" />
         <option value="$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest127.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
+        <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子串.cpp" />
+        <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列.cpp" />
+        <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp" />
+        <option value="$PROJECT_DIR$/随手记录.txt" />
       </list>
     </option>
   </component>
@@ -200,7 +210,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="123" />
     <option name="y" value="375" />
     <option name="width" value="796" />
@@ -242,7 +252,7 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,12 +367,14 @@
       <workItem from="1557970694004" duration="5748000" />
       <workItem from="1557993991249" duration="506000" />
       <workItem from="1558009540212" duration="858000" />
-      <workItem from="1558103106164" duration="528000" />
+      <workItem from="1558103106164" duration="952000" />
+      <workItem from="1558104590159" duration="25000" />
+      <workItem from="1558144201404" duration="6519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260905000" />
+    <option name="totallyTimeSpent" value="267873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,7 +389,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24646984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25160462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -428,23 +440,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Heap/347.TopKthFrequentElements_数组中前k个最频繁的值.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sturct.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -555,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -593,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -614,13 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
@@ -642,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="784" column="49" selection-start-line="784" selection-start-column="49" selection-end-line="784" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="779" selection-start-line="779" selection-end-line="779" />
         </state>
       </provider>
     </entry>
@@ -694,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest85(836-837).cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729">
@@ -713,13 +673,6 @@
         <state relative-caret-position="-3275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -727,37 +680,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TCP/client.cpp">
+    <entry file="file://$PROJECT_DIR$/../TCP/client.cpp" />
+    <entry file="file://$PROJECT_DIR$/../TCP/server.cpp" />
+    <entry file="file://$PROJECT_DIR$/BinarySearch/354.RussianDollEnvelopes_信封嵌套.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="1360">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TCP/server.cpp">
+    <entry file="file://$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="520">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest131(1021-1024).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest132(1025-1027).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#46#69#0" expanded="true" />
+            <element signature="e#48#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="779" selection-start-line="779" selection-end-line="779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest127(1005-1008).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/随手记录.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/704.BinarySearch_二分查找.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
         </state>
       </provider>
     </entry>
