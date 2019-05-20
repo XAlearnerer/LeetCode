@@ -44,7 +44,7 @@ public:
 			if (S[0] == S[1]) return "";
 			else return S;
 		}
-//? Ã»ÕÒµ½³ö´íµÄÇé¿ö
+//? Ã»ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int l = 0, r = 1;
 		while (r < S.size())
 		{
@@ -142,7 +142,7 @@ public:
 	}
 
 	//word1 is a predecessor of word2 if and only if we can add exactly 
-	//! /// one letter Ö»ÄÜ¼ÓÒ»¸ö×ÖÄ¸ 
+	//! /// one letterã€€ã€€åªæœ‰ä¸€ä¸ªå­—ç¬¦
 	//anywhere in word1 to make it equal to word2
 	
 	bool check(string s1, string s2)
