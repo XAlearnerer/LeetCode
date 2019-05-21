@@ -44,7 +44,7 @@ public:
 			if (S[0] == S[1]) return "";
 			else return S;
 		}
-//? û�ҵ���������
+//? 不知道为什么出错
 		int l = 0, r = 1;
 		while (r < S.size())
 		{

@@ -12,13 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest54(696-698).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest68(766,767).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/218.TheSkylineProblem_(类似699)城市天际线问题.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +45,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="2" />
@@ -58,39 +57,48 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="14" />
+          <entry key="project.open.time.5" value="16" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="59" />
+          <entry key="project.opened" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="17" />
           <entry key="Disassembly" value="11" />
-          <entry key="ObjectiveC" value="296" />
-          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="ObjectiveC" value="299" />
+          <entry key="PLAIN_TEXT" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="Doxygen file" value="30" />
-          <entry key="ObjectiveC" value="49719" />
-          <entry key="PLAIN_TEXT" value="948" />
+          <entry key="Doxygen file" value="32" />
+          <entry key="ObjectiveC" value="51341" />
+          <entry key="PLAIN_TEXT" value="1037" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest68(766,767).cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+            <state relative-caret-position="-29">
+              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
               <folding>
-                <element signature="e#38#57#0" expanded="true" />
+                <element signature="e#37#56#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -142,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/比较实际值" />
-        <option value="$PROJECT_DIR$/../ns3/3.7_New_topology_flow/比较计算值与实际值.cpp" />
-        <option value="$PROJECT_DIR$/Heap/218.TheSkylineProblem_城市天际线问题.cpp" />
         <option value="$PROJECT_DIR$/Heap/378.KthSmallestElementInASortedMatrix_有序数组中第k小的值.cpp" />
         <option value="$PROJECT_DIR$/Heap/451.SortCharacterByFrequence_按照出现频率重排单词.cpp" />
         <option value="$PROJECT_DIR$/Heap/659.SplitArrayintoConsecutiveSequence_将数组划分为连续的子序列.cpp" />
@@ -183,16 +188,19 @@
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子串.cpp" />
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列.cpp" />
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp" />
-        <option value="$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp" />
         <option value="$PROJECT_DIR$/../CMakeLists.txt" />
         <option value="$PROJECT_DIR$/../+Linux_test/1.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest.cpp" />
         <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest54.cpp" />
         <option value="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" />
-        <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest766.cpp" />
         <option value="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest68.cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/contest68(766,767).cpp" />
+        <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
       </list>
     </option>
   </component>
@@ -245,12 +253,6 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
@@ -375,12 +377,14 @@
       <workItem from="1558104590159" duration="25000" />
       <workItem from="1558144201404" duration="7674000" />
       <workItem from="1558267774993" duration="531000" />
-      <workItem from="1558269650611" duration="11933000" />
+      <workItem from="1558269650611" duration="11971000" />
+      <workItem from="1558335595572" duration="1162000" />
+      <workItem from="1558402623235" duration="4307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281492000" />
+    <option name="totallyTimeSpent" value="286999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +399,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24390244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26572528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,7 +411,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22762148" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14340588" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
@@ -446,13 +450,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recursion/698.PatitionToKSameSumSubset_划分成K个和相同的子串.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/115.DistinctSubSequences_(DP)不同的子序列组成另一个字符串的种数.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -680,16 +677,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../~Linux_test/test1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../+Linux_test/t1.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../~Linux_test/test1.cpp" />
+    <entry file="file://$PROJECT_DIR$/../+Linux_test/t1.cpp" />
     <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -701,23 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-            <element signature="e#612#631#0" expanded="true" />
-            <element signature="e#1242#1261#0" expanded="true" />
-            <element signature="e#1570#1589#0" expanded="true" />
-            <element signature="e#2134#2151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1696">
-          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,6 +718,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
           <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest137(1046-1048).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="69" selection-end-column="3" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest68(766,767).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
@@ -760,18 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/Contests题目.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高(俄罗斯方块).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="335">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>
