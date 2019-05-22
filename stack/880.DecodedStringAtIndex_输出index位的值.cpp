@@ -92,10 +92,33 @@ public:
 
 
 
+///////////////////////////////////////////////////////////////////////
+
 
 class Solution {
 public:
 	string decodeAtIndex(string S, int K) {
+		long cnt=0,pos=0;
+		for(cnt;pos<K;++cnt)
+		{
+			if(S[cnt]>='a' && S[cnt]<='z') ++pos;
+			else
+				pos*=(S[cnt]-'0');
+		}
 
+		while(--cnt>=0)
+		{
+			if(S[cnt] >= '0' && S[cnt] <= '9')
+			{
+				pos/=(S[cnt]-'0');
+				K%=pos;
+			}
+			else
+			{
+				if(K%pos==0) return string(1,S[cnt]);
+				--pos;
+			}
+		}
+		return "";
 	}
 };
