@@ -12,11 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82794f1-b077-4ad5-a91e-a50e961c6084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~WeeklyContest/contest96(880,881,883).cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/880.DecodedStringAtIndex_输出index位的值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack/880.DecodedStringAtIndex_输出index位的值.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" beforeDir="false" afterPath="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/随手记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/随手记录.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +42,7 @@
     <session id="1249019747">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="52" />
+          <entry key="project.closed" value="56" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -55,27 +53,28 @@
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.4" value="9" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.5" value="16" />
+          <entry key="project.open.time.5" value="17" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="62" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="17" />
+          <entry key="CMakeLists.txt" value="19" />
           <entry key="Disassembly" value="11" />
-          <entry key="ObjectiveC" value="304" />
-          <entry key="PLAIN_TEXT" value="140" />
+          <entry key="ObjectiveC" value="317" />
+          <entry key="PLAIN_TEXT" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="Doxygen file" value="34" />
-          <entry key="ObjectiveC" value="52562" />
-          <entry key="PLAIN_TEXT" value="1124" />
+          <entry key="Doxygen file" value="35" />
+          <entry key="ObjectiveC" value="54020" />
+          <entry key="PLAIN_TEXT" value="1151" />
         </counts>
       </usages-collector>
     </session>
@@ -83,13 +82,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp">
+        <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/旋转数组的最小数字.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+            <state relative-caret-position="327">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
-                <element signature="e#37#56#0" expanded="true" />
+                <element signature="e#38#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -141,11 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Heap/373.FindKPairsWithSmallestSum_在两组数组中挑选和最小的组合.cpp" />
-        <option value="$PROJECT_DIR$/stack/225.ImplementStackUsingQueue_使用queue构建stack.cpp" />
-        <option value="$PROJECT_DIR$/stack/232.ImplementQueueUsingStack_使用stack构建queue.cpp" />
-        <option value="$PROJECT_DIR$/stack/224.BasicCalculator_string类型算式计算.cpp" />
-        <option value="$PROJECT_DIR$/Heap/239.SlidingWindowsMaximum_最大滑动窗口.cpp" />
         <option value="$PROJECT_DIR$/stack/224.BasicCalculator_公式字符串求解.cpp" />
         <option value="$PROJECT_DIR$/Recursion/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp" />
         <option value="$PROJECT_DIR$/DP/312.BurstBallon_打气球_使数列连续三位的乘积之和最大.cpp" />
@@ -175,10 +187,8 @@
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子串.cpp" />
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列.cpp" />
         <option value="$PROJECT_DIR$/DP/516.LongestPalindromicSubsequence_最长回文子序列(子序列不需要连续).cpp" />
-        <option value="$PROJECT_DIR$/../CMakeLists.txt" />
         <option value="$PROJECT_DIR$/../+Linux_test/1.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest.cpp" />
-        <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/~WeeklyContest/contest54.cpp" />
         <option value="$PROJECT_DIR$/Heap/703.KthLargestElementInAStream_设计class保证输出第k大的数值.cpp" />
         <option value="$PROJECT_DIR$/Heap/699.FallingSquare_正方形掉落垒高.cpp" />
@@ -191,7 +201,14 @@
         <option value="$PROJECT_DIR$/stack/880.DecodedStringAtIndex_输出index位的值.cpp" />
         <option value="$PROJECT_DIR$/~WeeklyContest/Contests题目.txt" />
         <option value="$PROJECT_DIR$/DonotknowHowtostore/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp" />
+        <option value="$PROJECT_DIR$/../CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/随手记录.txt" />
         <option value="$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp" />
+        <option value="$PROJECT_DIR$/../NowCoder/剑指offer/二维数组的查找.cpp" />
+        <option value="$PROJECT_DIR$/../NowCoder/剑指offer/二维数组中的查找.cpp" />
+        <option value="$PROJECT_DIR$/../NowCoder/剑指offer/替换空格.cpp" />
+        <option value="$PROJECT_DIR$/../NowCoder/剑指offer/从尾到头打印链表 .cpp" />
+        <option value="$PROJECT_DIR$/../NowCoder/剑指offer/旋转数组的最小数字.cpp" />
       </list>
     </option>
   </component>
@@ -227,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,10 +256,28 @@
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NowCoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NowCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,12 +394,16 @@
       <workItem from="1558269650611" duration="11971000" />
       <workItem from="1558335595572" duration="1162000" />
       <workItem from="1558402623235" duration="4348000" />
-      <workItem from="1558514430488" duration="9235000" />
+      <workItem from="1558514430488" duration="9455000" />
+      <workItem from="1558583290534" duration="821000" />
+      <workItem from="1558598553487" duration="2000" />
+      <workItem from="1558601797564" duration="6883000" />
+      <workItem from="1558616659900" duration="1966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296275000" />
+    <option name="totallyTimeSpent" value="306167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +418,7 @@
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.275353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33055198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,9 +430,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24327785" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14980794" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2650448" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.23559539" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -430,47 +468,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="e[0].second[1].first" />
+        <watch expression="res" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList/148.SortLists_链表排序.cpp" />
-    <entry file="file://$PROJECT_DIR$/LinkedList/143.ReorderList_链表重排序.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/203.RemoveLinkedListElements_删除链表元素.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/237.DeleteNodeinaLinkedList_删除节点_仅仅给出要删除的点.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest133(1029,1030,1031).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1793" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnionFind/684.RedundantConnection_删除一条边使无向图变为二叉树.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest96(717 718 443).cpp" />
-    <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/39.CombinationSum1_组合1.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -572,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/719.FindK-thSmallestPairDistance_找到第k小的距离对.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -629,20 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../~Linux_test/test1.cpp" />
     <entry file="file://$PROJECT_DIR$/../+Linux_test/t1.cpp" />
-    <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="5649" selection-start-line="5" selection-start-column="5649" selection-end-line="5" selection-end-column="5649" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../+Linux_test/1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../+Linux_test/1.cpp" />
     <entry file="file://$PROJECT_DIR$/~WeeklyContest/contest73(788-791).cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -668,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="69" selection-end-column="3" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,23 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记录.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/遗留问题.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -722,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1880">
           <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,12 +714,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="5659" selection-start-line="5" selection-start-column="5659" selection-end-line="5" selection-end-column="5659" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/遗留问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/随手记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Z.others/882.ReachableNodesInSubdivisiableGraph_在图中找可以在Ｍ跳前到达的节点数目.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        <state relative-caret-position="1357">
+          <caret line="108" column="21" lean-forward="true" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/二维数组的查找.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/替换空格.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
-            <element signature="e#37#56#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/从尾到头打印链表 .cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/二维数组中的查找.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/154.FindMinimumInRoatedSortedArrayII_在有重复数字的旋转有序数列中查找最小值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/153.FindMinimumInRotatedSortedArray_在旋转有序数列中查找最小值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NowCoder/剑指offer/旋转数组的最小数字.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -188,6 +188,15 @@ if (m != n)
 839 UnionFind
 向并查集靠拢
 
+///////////////////////////////////////////////////////
+
+882 Z.other
+啧啧
+
+//        auto cmp=[](node a,node b){ return a.move>b.move;};
+//        priority_queue<node,vector<node>,decltype(cmp)> q;
+
+     priority_queue<node,vector<node>,MyCmp> q;
 
 ///////////////////////////////////////////////////////
 
