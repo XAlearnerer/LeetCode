@@ -131,23 +131,22 @@ public:
 /////////////////////////////////////////////////////////////////
 
 
-class Solution {
+class Solution1053 {
 public:
     vector<int> prevPermOpt1(vector<int>& A) {
+		int len = A.size(); 
+		int left = len - 2, right = len - 1;
 
+		while (left >= 0 && A[left] <= A[left + 1]) --left;
+		if (left < 0) return A;
+		while (right >= 0 && A[left] <= A[right]) --right;
+		while (A[right] == A[right - 1]) --right;
 
+		using std::swap;
+		swap(A[left], A[right]);
+		return A;
     }
 };
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -172,8 +171,6 @@ public:
             if (--t2.first > 0) q.push(t2);
         }
         if (q.size() > 0) res.push_back(q.top().second);
-
-
         return res;
     }
 };
