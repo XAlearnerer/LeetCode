@@ -198,6 +198,15 @@ if (m != n)
 
      priority_queue<node,vector<node>,MyCmp> q;
 
+
+而在 sort 中可以：
+ static bool cmp(int a, int b){
+        string A = to_string(a) + to_string(b);
+        string B = to_string(b) + to_string(a);
+        return A < B;
+    }
+
+
 ///////////////////////////////////////////////////////
 
 1030 contest133
