@@ -10,6 +10,7 @@
 #include<bitset>
 #include <unordered_map>
 #include <map>
+#include<xfunctional>
 
 using namespace std;
 
