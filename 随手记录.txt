@@ -228,3 +228,9 @@ brilliant idea
 
 1035
 The Longest Common Subsequence
+
+
+///////////////////////////////////////////////////////
+contest140 
+
+直接 root==NULL 完事，为什么搞一个 *pre 。。。。。。
