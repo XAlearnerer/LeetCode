@@ -299,3 +299,32 @@ public:
 	}
 };
 
+
+
+class Solution1081_2 {
+public:
+	string smallestSubsequence(string text) {
+		vector<int> vis(26, 0);
+		vector<int> n(26, 0);
+		string res;
+		res += '0';
+		for (auto i : text)
+			++n[i - 'a'];
+		for (auto i : text)
+		{
+			--n[i - 'a'];
+			if (vis[i - 'a'] == 1) continue;
+			while (i < res.back() && n[res.back() - 'a'] > 0)
+			{
+				vis[res.back() - 'a'] = 0;
+				res.pop_back();
+			}
+			vis[i - 'a'] = 1;
+			res.push_back(i);
+		}
+
+		res.erase(res.begin());
+		return res;
+
+	}
+};
