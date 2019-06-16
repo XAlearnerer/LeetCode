@@ -93,7 +93,7 @@ public:
 		{
 			if (v[i] == 1) continue;
 			v[i] = 1;
-			helper(tiles, set, res, str+string(1, tiles[i]), v);
+			helper(tiles, set, res, str + string(1, tiles[i]), v);
 			v[i] = 0;
 		}
 	}
