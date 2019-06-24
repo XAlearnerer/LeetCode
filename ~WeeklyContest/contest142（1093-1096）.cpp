@@ -167,4 +167,50 @@ public:
 };
 
 
+
+//? Triple Binary Search
+
+class Solution1095__2 {
+public:
+	int findInMountainArray(int target, MountainArray &mountainArr) {
+		int len = mountainArr.length();
+		int peak = 0, l = 0, r = len - 1;
+		while (l < r)
+		{
+			int m = l + (r - l) / 2;
+			if (mountainArr.get(m) < mountainArr.get(m + 1))
+			{
+				l = m + 1;
+				peak = m + 1;
+			}
+			else
+				r = m;
+		}
+
+		l = 0;
+		r = peak;
+		while (l <= r)
+		{
+			int m = l + (r - l) / 2;
+			if (mountainArr.get(m) == target) return m;
+			else if (mountainArr.get(m) > target) r = m - 1;
+			else l = m + 1;
+		}
+
+		l = peak;
+		r = len - 1;
+		while (l <= r)
+		{
+			int m = l + (r - l) / 2;
+			if (mountainArr.get(m) == target) return m;
+			else if (mountainArr.get(m) < target) r = m - 1;
+			else l = m + 1;
+		}
+
+		return -1;
+	}
+};
+
+
+
 ////////////////////////////////////////////////////////////////////////////////////
