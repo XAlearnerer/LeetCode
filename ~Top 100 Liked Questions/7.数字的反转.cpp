@@ -18,12 +18,3 @@ public:
 
 };
 
-
-int main()
-{
-	int a = -123;
-	Solution n;
-	cout << n.reverse(a) << endl;
-
-	return 0;
-}
