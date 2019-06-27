@@ -79,13 +79,12 @@ public:
 };
 
 
-
-int main1613()
-{
-	//vector<int> v={2,1,5,6,2,3};
-	vector<int> v = { 0,0 };
-	Solution n;
-	cout << n.largestRectangleArea(v) << endl;
-
-	return 0;
-}
+//
+//int main()
+//{
+//	vector<int> v={2,1,4,5,6,2};
+//	Solution n;
+//	cout << n.largestRectangleArea(v) << endl;
+//
+//	return 0;
+//}
