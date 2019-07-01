@@ -150,7 +150,7 @@ public:
 
 
 
-class Solution {
+class Solution1105 {
 public:
 	int minHeightShelves(vector<vector<int>>& books, int shelf_width) {
 		int len = books.size();
