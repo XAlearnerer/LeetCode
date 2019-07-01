@@ -31,5 +31,46 @@ using namespace std;
 class Solution {
 public:
 	int calculate(string s) {
+		int res = 0, cur = 0, num = 0;
+		char op = '+';
+		for (int i = 0; i < s.size(); ++i)
+		{
+			if (s[i] >= '0' && s[i] <= '9')
+				num = num * 10 + (s[i] - '0');
+			char c = s[i];
+			if (s[i] == '(')
+			{
+				int cnt = 0;
+				int j = i;
+				for (; i < s.size(); ++i)
+				{
+					if (s[i] == '(') ++cnt;
+					if (s[i] == ')') --cnt;
+					if (cnt == 0) break;
+				}
+				num = calculate(s.substr(j + 1, i - j - 1));
+			}
+
+			if (c == '+' || c == '-' || c == '*' || c == '/' || i == s.size() - 1)
+			{
+				switch (op) {
+					case '+':cur += num;
+					case '-':cur -= num;
+					case '*':cur *= num;
+					case '/':cur /= num;
+				}
+
+				if (c == '+' || c == '-' || i == s.size() - 1)
+				{
+					res *= cur;
+					cur = 0;
+				}
+				num = 0;
+				op = c;
+
+			}
+		}
+		
+		return res;
 	}
 };

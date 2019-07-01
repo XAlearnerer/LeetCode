@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <stack>
@@ -134,19 +134,19 @@ public:
 //
 
 
-//? ��ϧ�ˣ�ûд����
+//? 可惜了，没写出来
 
-//˼·������Ķ�̬�滮�⡣
-//����dp[i]Ϊǰi�����ܹ��������С�߶ȡ�
-//����ڵ�i + 1���飬������ѡ��
+//思路：经典的动态规划题。
+//定义dp[i]为前i本书能够到达的最小高度。
+//则对于第i + 1本书，有若干选择。
 //
-//���Լ�����һ�㣬��״̬ת��Ϊdp[i + 1] = dp[i] + h[i + 1]
+//如自己单独一层，则状态转移为dp[i + 1] = dp[i] + h[i + 1]
 //
-//�����ǰ��������һ�𣬺�����ǰj����������ɲ㣬��j + 1����i + 1�������һ�㣬
-//��״̬ת�Ʒ���ʽdp[i + 1] = min(dp[j] + max[h[j + 1] ~h[i + 1])),
-//������Ҫ����sum(w[j + 1] ~w[i + 1]) <= shelf_width����
+//如果和前面的书放在一起，含义是前j本书组成若干层，第j + 1到第i + 1本书组成一层，
+//则状态转移方程式dp[i + 1] = min(dp[j] + max[h[j + 1] ~h[i + 1])),
+//其中需要满足sum(w[j + 1] ~w[i + 1]) <= shelf_width，。
 //
-//������Щѡ��ȡ��Сֵ��
+//对于这些选择，取最小值。
 
 
 
@@ -186,4 +186,81 @@ public:
 //	return 0;
 //}
 
+
+class Solution1106 {
+public:
+	bool parseBoolExpr(string expression) {
+		int pos = 0;
+		return helper(expression, pos);
+	}
+
+	bool helper(string& s, int& pos)
+	{
+		if (s[pos] == 't') {
+			++pos;
+			return true;
+		}
+		else if (s[pos] == 'f') {
+			++pos;
+			return false;
+		}
+		else if (s[pos] == '!') return fnot(s, pos);
+		else if (s[pos] == '&') return fand(s, pos);
+		else return f_or(s, pos);
+	}
+
+	bool fnot(string& s, int& pos)
+	{
+		pos += 2;
+		bool cur = helper(s, pos);
+		++pos;
+		return !cur;
+	}
+
+	bool fand(string& s, int& pos)
+	{
+		pos += 2;
+		bool cur = true;
+		cur &= helper(s, pos);
+		while (s[pos] != ')')
+		{
+			++pos;		//?  这里跳过 ','
+			cur &= helper(s, pos);
+		}
+		++pos;
+		return cur;
+	}
+
+	bool f_or(string& s, int& pos)
+	{
+		pos += 2;
+		//bool cur = true;
+
+	////////////////////   
+			//? 这里取 false   与   fand 中使用 true 区别
+		bool cur = false;
+	////////////////////
+
+
+		cur |= helper(s, pos);
+		while (s[pos] != ')')
+		{
+			++pos;                         
+			cur |= helper(s, pos);
+		}
+		++pos;
+		return cur;
+	}
+
+};
+
+
+//int main()
+//{
+//	string s = "|(&(t,f,t),!(t))";
+//	Solution n;
+//	cout << n.parseBoolExpr(s) << endl;
+//
+//	return 0;
+//}
 
