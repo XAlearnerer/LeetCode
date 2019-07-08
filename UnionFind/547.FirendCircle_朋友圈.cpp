@@ -51,7 +51,7 @@ public:
 		{
 			if (v[i] == 1) continue;
 			helper(M,v,i);
-				++res;
+			++res;
 		}
 		return res;
 	}
