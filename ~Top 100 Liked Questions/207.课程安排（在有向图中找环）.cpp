@@ -49,7 +49,7 @@ public:
 //  由于环导致的额外的入度，导致没有入度为0的结点，使得BFS提前结束，没有能够遍历所有的节点
 
 
-class Solution {
+class Solution2 {
 public:
 	bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 		vector<vector<int>> g(numCourses, vector<int>(0));

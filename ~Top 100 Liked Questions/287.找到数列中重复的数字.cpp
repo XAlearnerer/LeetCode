@@ -15,8 +15,31 @@ using namespace std;
 class Solution {
 public:
 	int findDuplicate(vector<int>& nums) {
+		int l = 0, r = nums.size() - 1;
+		while (l < r)
+		{
+			int m = l + (r - l) / 2;
+			int cnt = 0;
+			for (auto i : nums)
+				if (i <= m) ++cnt;
 
+			if (cnt > m) r = m;
+			else l = m + 1;
+		}
 
+		return l;
 	}
 };
 
+
+
+
+
+//int main()
+//{
+//	vector<int> v = { 1,3,4,2,2 };
+//	Solution n;
+//	cout << n.findDuplicate(v) << endl;
+//
+//	return 0;
+//}
