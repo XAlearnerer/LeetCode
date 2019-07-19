@@ -222,14 +222,14 @@ public:
 
 };
 
-int main()
-{
-	vector<int> v = { 8,10,6,16,5 };
-	Solution n;
-	cout << n.longestWPI(v) << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	vector<int> v = { 8,10,6,16,5 };
+//	Solution n;
+//	cout << n.longestWPI(v) << endl;
+//
+//	return 0;
+//}
 
 
 
