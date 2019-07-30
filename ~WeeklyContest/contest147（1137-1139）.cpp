@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <stack>
@@ -11,6 +11,7 @@
 #include <map>
 
 using namespace std;
+
 
 class Solution1137 {
 public:
@@ -86,82 +87,44 @@ public:
 ///////////////////////////////////////////////////////////////////////////////
 
 
+
 class Solution1139 {
 public:
 	int largest1BorderedSquare(vector<vector<int>>& grid) {
 		if (grid.empty() || grid[0].empty()) return 0;
-		return getMaxSize(grid);
-	}
-
-	//¸ù¾İm¾ØÕó£¬ÉèÖÃrightÓëdown¾ØÕó£¬right[i][j]±íÊ¾m[i][j]µÄÓÒ±ßÓĞ¶àÉÙ¸öÁ¬ĞøµÄ1£¬°üÀ¨×ÔÉí
-	//down[i][j]±íÊ¾m[i][j]µÄÏÂ±ßÓĞ¶àÉÙ¸öÁ¬ĞøµÄ1£¬°üÀ¨×ÔÉí
-	void setRightAndDown(vector<vector<int>>& m, vector<vector<int>>& right, vector<vector<int>>& down) {
-		int rowNum = m.size();
-		int colNum = m[0].size();
-		//³õÊ¼»¯ÓÒÏÂ½ÇÎ»ÖÃ
-		right[rowNum - 1][colNum - 1] = m[rowNum - 1][colNum - 1];
-		down[rowNum - 1][colNum - 1] = m[rowNum - 1][colNum - 1];
-		//³õÊ¼»¯×îºóÒ»ĞĞ
-		for (int col = colNum - 2; col >= 0; col--) {
-			if (m[rowNum - 1][col] == 1) {
-				right[rowNum - 1][col] = right[rowNum - 1][col + 1] + 1;
-				down[rowNum - 1][col] = 1;
-			}
-		}
-		//³õÊ¼»¯×îºóÒ»ÁĞ
-		for (int row = rowNum - 2; row >= 0; row--) {
-			if (m[row][colNum - 1] == 1) {
-				right[row][colNum - 1] = 1;
-				down[row][colNum - 1] = down[row + 1][colNum - 1] + 1;
-			}
-		}
-		//ÆäËûÎ»ÖÃ£¬´ÓÓÒÏò×ó£¬´ÓÏÂµ½ÉÏÉèÖÃÖµ
-		for (int row = rowNum - 2; row >= 0; row--) {
-			for (int col = colNum - 2; col >= 0; col--) {
-				if (m[row][col] == 1) {
-					right[row][col] = right[row][col + 1] + 1;
-					down[row][col] = down[row + 1][col] + 1;
+		int n = grid.size(), m = grid[0].size();
+		vector<vector<int> > hor(n, vector<int>(m, 0));
+		vector<vector<int> > ver(n, vector<int>(m, 0));
+		for (int i = 0; i < grid.size(); ++i)
+		{
+			for (int j = 0; j < grid[0].size(); ++j)
+			{
+				if (grid[i][j] == 1)
+				{
+					//if (i > 0) hor[i][j] += hor[i - 1][j];
+					hor[i][j] = (i == 0) ? 1 : hor[i - 1][j] + 1;
+					ver[i][j] = (j == 0) ? 1 : ver[i][j - 1] + 1;
 				}
 			}
 		}
-	}
 
-	int getMaxSize(vector<vector<int>>& m) {
-		int rows = m.size();
-		int cols = m[0].size();
-		vector<vector<int>> right(rows, vector<int>(cols, 0));
-		vector<vector<int>> down(rows, vector<int>(cols, 0));
-		setRightAndDown(m, right, down);
 
-		for (int length = min(m.size(), m[0].size()); length >= 1; length--) {
-			//¶ÔÓÚÃ¿¸ö±ß³¤£¬¿´ÊÇ·ñ´æÔÚÒÔ¸ÃÖµ×÷Îª±ß³¤µÄ¾ØÕó£¬Âú×ãËÄÖÜÈ«Îª1
-			//ÒòÎªÒªÕÒ×î´ó±ß³¤£¬ËùÒÔ´Ó´óµ½Ğ¡ÕÒ
-			if (hasSizeOfBorder(length, right, down)) {
-				return length;
-			}
-		}
-		return 0;
-	}
-
-	//¸Ãº¯ÊıÊµÏÖ´«ÈëÒ»¸ö±ß³¤Öµ£¬¸ù¾İrightÓëdown¾ØÕó£¬ÅĞ¶ÏÊÇ·ñ´æÔÚÕı·½ĞÎÂú×ãËÄÖÜÈ«Îª1
-	bool hasSizeOfBorder(int length, vector<vector<int>>& right, vector<vector<int>>& down) {
-		for (int row = 0; row + length - 1 <= right.size() - 1; row++) {
-			for (int col = 0; col + length - 1 <= right[0].size() - 1; col++) {
-				//row,col´ú±í×óÉÏ·½µÄÎ»ÖÃ£¬ÒªÇó×óÉÏ·½´¦ÏÂ±ß×îÉÙÓĞÁ¬ĞøµÄlength¸ö1£¬ÓÒ±ß×îÉÙÓĞÁ¬ĞøµÄlength¸ö1
-				//[row + length - 1][col]´ú±í×óÏÂ½Ç£¬ÒªÇó¸ÃµãÓÒ±ß×îÉÙÓĞÁ¬ĞøµÄlength¸ö1
-				//[row][col + length - 1]´ú±íÓÒÉÏ½Ç£¬ÒªÇó¸ÃµãÏÂ±ß×îÉÙÓĞÁ¬ĞøµÄlength¸ö1
-				//ÕâÑù±ãÈ·Á¢ÁËËÄ¸ö±ß
-				if (right[row][col] >= length && down[row][col] >= length
-					&& right[row + length - 1][col] >= length
-					&& down[row][col + length - 1] >= length) {
-					return true;
+		int res = 0;
+		for (int i = n - 1; i >= 0; --i)
+		{
+			for (int j = m - 1; j >= 0; --j)
+			{
+				int small = min(hor[i][j], ver[i][j]);
+				while (small > res)
+				{
+					if (ver[i - small + 1][j] >= small && hor[i][j - small + 1] >= small)
+						res = small;
+					--small;
 				}
 			}
 		}
-		return false;
+		return res*res;
 	}
-
-
-
 };
+
 
