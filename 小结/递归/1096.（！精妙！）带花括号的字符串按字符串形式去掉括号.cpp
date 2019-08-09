@@ -44,7 +44,7 @@ public:
 		ans = f3(s, pos);
 		while (pos < s.size())
 		{
-			if (s[pos] != ',') break;
+			if (s[pos] != ',') break;	//?  '}' break;
 			++pos;
 			set<string> cur = f3(s, pos);
 			ans.insert(cur.begin(), cur.end());
@@ -106,13 +106,26 @@ public:
 };
 
 
-int main()
-{
-	string s = "a{b,c}q{d,e}";
-	Solution n;
-	for (auto i : n.braceExpansionII(s))
-		cout << i << " ";
-	cout << endl;
-	
-	return 0;
-}
+//int main()
+//{
+//	string s = "a{b,c}q{d,e}";
+//	Solution n;
+//	for (auto i : n.braceExpansionII(s))
+//		cout << i << " ";
+//	cout << endl;
+//	
+//	return 0;
+//}
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
