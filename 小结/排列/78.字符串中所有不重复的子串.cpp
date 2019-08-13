@@ -24,10 +24,15 @@ public:
 		for (int i = pos; i < nums.size(); ++i)
 		{
 			cur.push_back(nums[i]);
+
+
+		/////////////////////////////////////
 			helper(res, nums, cur, i + 1);
+		/////////////////////////////////////
+
+
 			cur.pop_back();
 		}
 	}
 
 };
-
