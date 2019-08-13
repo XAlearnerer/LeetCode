@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <ctime>
 #include <cstdlib>
 #include <vector>
@@ -11,11 +11,11 @@ public:
 	solution() {}
 	~solution() {}
 
-	void testAlgorithm(vector<int>& v) {    //ĞèÒª²âÊÔµÄËã·¨a
+	void testAlgorithm(vector<int>& v) {    //éœ€è¦æµ‹è¯•çš„ç®—æ³•a
 
 	}
 
-	void comparator(vector<int>& v) {     //ÍêÈ«ÕıÈ·µÄËã·¨b
+	void comparator(vector<int>& v) {     //å®Œå…¨æ­£ç¡®çš„ç®—æ³•b
 	
 	}
 
@@ -25,16 +25,16 @@ public:
 	//	j = tmp;
 	//}
 
-	//int computeLengthOfArr(int arr[]) {   //¼ÆËãÊı×é³¤¶È
+	//int computeLengthOfArr(int arr[]) {   //è®¡ç®—æ•°ç»„é•¿åº¦
 	//	if (arr == NULL) {
 	//		return 0;
 	//	}
 	//	return sizeof(arr) / sizeof(arr[0]);
 	//}
 
-	vector<int> generateRandomArr(int maxSize, int maxValue) { //²úÉúËæ»úÊı×é
+	vector<int> generateRandomArr(int maxSize, int maxValue) { //äº§ç”Ÿéšæœºæ•°ç»„
 		int size = rand() % maxSize + 1;
-		//int *arr = new int[size];        //³õÊ¼»¯¶¨ÒåÊı×é
+		//int *arr = new int[size];        //åˆå§‹åŒ–å®šä¹‰æ•°ç»„
 		vector<int> arr(size);
 		for (int i = 0; i < size; i++) {
 			arr[i] = rand() % maxValue + 1;
@@ -42,7 +42,7 @@ public:
 		return arr;
 	}
 
-	vector<int> copyArr(vector<int> arr) {         //¿½±´Ò»¸öÍêÈ«Ò»ÑùµÄÊı×é
+	vector<int> copyArr(vector<int> arr) {         //æ‹·è´ä¸€ä¸ªå®Œå…¨ä¸€æ ·çš„æ•°ç»„
 		if (arr.empty()) {
 			return;
 		}
@@ -56,7 +56,7 @@ public:
 		return copy;
 	}
 
-	bool isEqual(vector<int> arr1, vector<int> arr2) {    //Á½¸öÊı×éµÄ¶Ô±È£¬½«Á½¸öËã·¨ÅÅĞòºóµÄÊı×é½øĞĞ¶Ô±È£¬ÊÇ·ñÒ»ÖÂ
+	bool isEqual(vector<int> arr1, vector<int> arr2) {    //ä¸¤ä¸ªæ•°ç»„çš„å¯¹æ¯”ï¼Œå°†ä¸¤ä¸ªç®—æ³•æ’åºåçš„æ•°ç»„è¿›è¡Œå¯¹æ¯”ï¼Œæ˜¯å¦ä¸€è‡´
 		if ((arr1.empty() && arr2.empty()) || (arr1.empty() && arr2.empty())) {
 			return false;
 		}
@@ -80,7 +80,7 @@ public:
 		return true;
 	}
 
-	void printArr(vector<int> arr) {  //´òÓ¡Êı×é
+	void printArr(vector<int> arr) {  //æ‰“å°æ•°ç»„
 		if (arr.empty()) {
 			return;
 		}

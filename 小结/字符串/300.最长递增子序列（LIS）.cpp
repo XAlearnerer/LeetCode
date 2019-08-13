@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<string>
 #include<vector>
 #include<algorithm>
@@ -6,13 +6,13 @@
 using namespace std;
 
 
-// ˼·���Ƚ���һ���յ� dp ���飬Ȼ��ʼ����ԭ���飬
-// ����ÿһ�������������֣��ö��ֲ��ҷ��� dp �����ҵ�һ����С���������֣�
-// ���������ֲ����ڣ���ôֱ���� dp ���������ϱ����������֣�
-// ������ڣ���������ָ���Ϊ��ǰ�����������֣���󷵻� dp ����ĳ��ȼ��ɣ�
-// ע����ǣ�������ķ���һ����
-// �ر�ע����� dp �����ֵ���ܲ���һ����ʵ�� LIS��
-// �μ��������£�
+// 思路是先建立一个空的 dp 数组，然后开始遍历原数组，
+// 对于每一个遍历到的数字，用二分查找法在 dp 数组找第一个不小于它的数字，
+// 如果这个数字不存在，那么直接在 dp 数组后面加上遍历到的数字，
+// 如果存在，则将这个数字更新为当前遍历到的数字，最后返回 dp 数组的长度即可，
+// 注意的是，跟上面的方法一样，
+// 特别注意的是 dp 数组的值可能不是一个真实的 LIS。
+// 参见代码如下：
 
 
 class Solution {

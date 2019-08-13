@@ -1,4 +1,4 @@
-//#include <iostream>
+ï»¿//#include <iostream>
 //#include <ctime>
 //#include <cstdlib>
 //
@@ -10,11 +10,11 @@
 //	solution() {}
 //	~solution() {}
 //
-//	void testAlgorithm() {    //ĞèÒª²âÊÔµÄËã·¨a
+//	void testAlgorithm() {    //éœ€è¦æµ‹è¯•çš„ç®—æ³•a
 //
 //	}
 //
-//	void comparator(int arr[]) {     //ÍêÈ«ÕıÈ·µÄËã·¨b£¬ÓÃµÄÊÇÃ°ÅİÅÅĞò£¬Ê±¼ä¸´ÔÓ¶ÈÎªo(n^2)£¬¿Õ¼ä¸´ÔÓ¶ÈÎªo(1)
+//	void comparator(int arr[]) {     //å®Œå…¨æ­£ç¡®çš„ç®—æ³•bï¼Œç”¨çš„æ˜¯å†’æ³¡æ’åºï¼Œæ—¶é—´å¤æ‚åº¦ä¸ºo(n^2)ï¼Œç©ºé—´å¤æ‚åº¦ä¸ºo(1)
 //		int size = computeLengthOfArr(arr);
 //		if (arr == NULL || size < 2) {
 //			return;
@@ -34,23 +34,23 @@
 //		j = tmp;
 //	}
 //
-//	int computeLengthOfArr(int arr[]) {   //¼ÆËãÊı×é³¤¶È
+//	int computeLengthOfArr(int arr[]) {   //è®¡ç®—æ•°ç»„é•¿åº¦
 //		if (arr == NULL) {
 //			return 0;
 //		}
 //		return sizeof(arr) / sizeof(arr[0]);
 //	}
 //
-//	int* generateRandomArr(int maxSize, int maxValue) { //²úÉúËæ»úÊı×é
+//	int* generateRandomArr(int maxSize, int maxValue) { //äº§ç”Ÿéšæœºæ•°ç»„
 //		int size = rand() % maxSize + 1;
-//		int *arr = new int[size];        //³õÊ¼»¯¶¨ÒåÊı×é
+//		int *arr = new int[size];        //åˆå§‹åŒ–å®šä¹‰æ•°ç»„
 //		for (int i = 0; i < size; i++) {
 //			arr[i] = rand() % maxValue + 1;
 //		}
 //		return arr;
 //	}
 //
-//	int* copyArr(int arr[]) {         //¿½±´Ò»¸öÍêÈ«Ò»ÑùµÄÊı×é
+//	int* copyArr(int arr[]) {         //æ‹·è´ä¸€ä¸ªå®Œå…¨ä¸€æ ·çš„æ•°ç»„
 //		if (arr == NULL) {
 //			return;
 //		}
@@ -62,7 +62,7 @@
 //		return copy;
 //	}
 //
-//	bool isEqual(int arr1[], int arr2[]) {    //Á½¸öÊı×éµÄ¶Ô±È£¬½«Á½¸öËã·¨ÅÅĞòºóµÄÊı×é½øĞĞ¶Ô±È£¬ÊÇ·ñÒ»ÖÂ
+//	bool isEqual(int arr1[], int arr2[]) {    //ä¸¤ä¸ªæ•°ç»„çš„å¯¹æ¯”ï¼Œå°†ä¸¤ä¸ªç®—æ³•æ’åºåçš„æ•°ç»„è¿›è¡Œå¯¹æ¯”ï¼Œæ˜¯å¦ä¸€è‡´
 //		if ((arr1 != NULL && arr2 == NULL) || (arr1 == NULL && arr2 != NULL)) {
 //			return false;
 //		}
@@ -82,7 +82,7 @@
 //		return true;
 //	}
 //
-//	void printArr(int arr[]) {  //´òÓ¡Êı×é
+//	void printArr(int arr[]) {  //æ‰“å°æ•°ç»„
 //		if (arr == NULL) {
 //			return;
 //		}
