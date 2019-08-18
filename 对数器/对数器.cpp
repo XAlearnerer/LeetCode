@@ -44,7 +44,7 @@ public:
 
 	vector<int> copyArr(vector<int> arr) {         //拷贝一个完全一样的数组
 		if (arr.empty()) {
-			return;
+			return {};
 		}
 		//int size = computeLengthOfArr(arr);
 		int size = arr.size();
