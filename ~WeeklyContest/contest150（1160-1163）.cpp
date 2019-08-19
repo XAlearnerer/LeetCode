@@ -90,7 +90,7 @@ public:
 /////////////////////////////////////////////////////////////////////////
 
 
-class Solution1162 {
+class Solution1162_worng {
 public:
 	int maxDistance(vector<vector<int>>& grid) {
 		int n = grid.size(), m = grid[0].size();
@@ -139,6 +139,41 @@ public:
 	}
 
 };
+
+
+
+class Solution_1162 {
+public:
+	int maxDistance(vector<vector<int>>& grid) {
+		for (int i = 0; i < grid.size(); ++i)
+			for (int j = 0; j < grid[0].size(); ++j)
+				if (grid[i][j] == 1) helper(grid, i, j, 1, true);
+
+		int res = -1;
+		for (auto i : grid)
+			for (auto j : i)
+				if (j > 1) res = max(res, j - 1);
+
+		return res;
+	}
+
+	void helper(vector<vector<int>>& g, int i, int j, int val
+		, bool land = false)
+	{
+		if (!land)
+		{																	//? g[i][j] < val 就会超时
+			if (i < 0 || j < 0 || i >= g.size() || j >= g[0].size() || (g[i][j] != 0 && g[i][j] <= val)) return;
+			g[i][j] = val;
+		}
+
+		helper(g, i + 1, j, val + 1);
+		helper(g, i, j + 1, val + 1);
+		helper(g, i - 1, j, val + 1);
+		helper(g, i, j - 1, val + 1);
+	}
+
+};
+
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -204,7 +239,7 @@ public:
 		//set<string> t;
 		//vector<string> res;
 		//helper(s, res, c);
-		
+
 		string res;
 		//helper(s, res, c);
 
