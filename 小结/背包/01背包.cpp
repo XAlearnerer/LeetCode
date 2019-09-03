@@ -72,7 +72,7 @@ void FindMaxBetter()//优化空间后的动态规划
 
 using namespace std;
 
-int main()
+int main_01()
 {
 	int total_weight = 10;
 	int w[6] = { 0,5,4,3,2,1 };
