@@ -21,7 +21,7 @@ void FindMax()//动态规划
 	{
 		for (j = 1; j <= capacity; j++)
 		{
-			if (j < w[i])//包装不进
+			if (j < w[i])//包装不进 
 				A[i][j] = A[i - 1][j];
 			else//能装
 			{
