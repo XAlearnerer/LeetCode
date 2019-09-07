@@ -175,3 +175,28 @@
 //
 //	return 0;
 //}
+
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+
+
+//class A
+//{
+//private:
+//	static int b;
+//
+//};
+//
+//int A::b = 10;
+//int main()
+//{
+//	//cout << A().b << endl;
+//
+//	return 0;
+//}
+
+
+

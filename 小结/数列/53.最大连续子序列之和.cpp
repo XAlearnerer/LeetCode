@@ -11,7 +11,7 @@ using namespace std;
 class Solution {
 public:
 	int maxSubArray(vector<int>& nums) {
-		if(nums.empty()) return 
+		if (nums.empty()) return 0;
 		int res = nums[0];
 
 	}

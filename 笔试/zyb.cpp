@@ -59,3 +59,24 @@
 //
 //
 //
+
+
+
+
+//#include <iostream>
+//#include <vector>
+//#include <algorithm> 
+//#include <queue>
+//#include <functional>
+//
+//using namespace std;
+//
+//
+//int main()
+//{
+//	priority_queue<int, vector<int>, greater<int>()> q;
+//	
+//	return 0;
+//}
+//
+
