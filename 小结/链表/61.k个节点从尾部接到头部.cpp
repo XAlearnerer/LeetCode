@@ -25,7 +25,7 @@ public:
 
 
 		ListNode* pre = head, *post = head;
-		for (int i = 0; i<k; ++i)
+		for (int i = 0; i < k; ++i)
 		{
 			if (post)
 				post = post->next;

@@ -26,8 +26,6 @@ public:
 			}
 			if (flag) continue;
 
-
-
 			for (int i = 0; i < cur.size(); ++i)
 			{
 				if (cur[i] != '(' && cur[i] != ')') continue;

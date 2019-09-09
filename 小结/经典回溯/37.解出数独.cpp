@@ -4,8 +4,8 @@
 using namespace std;
 
 
-// 对 box 中的值的判断。。。
-//? board[i - i % 3 + k / 3][j - j % 3 + k % 3]
+//   对 box 中的值的判断。。。
+//?  board[i - i % 3 + k / 3][j - j % 3 + k % 3]
 
 class Solution {
 public:

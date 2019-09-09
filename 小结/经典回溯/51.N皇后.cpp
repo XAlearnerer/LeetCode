@@ -13,7 +13,7 @@ public:
 		return res;
 	}
 
-	void helper(int n,vector<vector<string>>& res, int k, vector<int>& solve)
+	void helper(int n, vector<vector<string>>& res, int k, vector<int>& solve)
 	{
 		if (k == n)
 		{

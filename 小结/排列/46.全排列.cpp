@@ -15,7 +15,7 @@ public:
 
 	void helper(vector<int>& nums, vector<vector<int>>& res, int t)
 	{
-		if (t > nums.size()) res.push_back(nums);
+		if (t >= nums.size()) res.push_back(nums);
 		else
 		{
 			for (int i = t; i < nums.size(); ++i)

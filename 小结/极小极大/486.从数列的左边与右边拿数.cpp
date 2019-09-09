@@ -10,7 +10,8 @@ class Solution_2 {
 public:
 	bool PredictTheWinner(vector<int>& nums) {
 		if (nums.size() == 1) return true;
-		if (p1(nums, 0, nums.size() - 1) >= p2(nums, 0, nums.size() - 1)) return true;
+		if (p1(nums, 0, nums.size() - 1) >= p2(nums, 0, nums.size() - 1)) 
+			return true;
 		else return false;
 	}
 
@@ -49,7 +50,6 @@ public:
 				g[j][i] = min(f[j + 1][i], f[j][i - 1]);
 			}
 		}
-
 		return f[0][n - 1] >= g[0][n - 1];
 	}
 };

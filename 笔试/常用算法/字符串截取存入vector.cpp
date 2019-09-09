@@ -35,11 +35,32 @@ void splitstring(const string& s, vector<string>& v, const string& c) {
 }
 
 
+
+void helper(string& s, vector<string>& v, string f)
+{
+	int pos1 = 0, pos2 = s.find(f);
+	while (pos2 != string::npos)
+	{
+		v.push_back(s.substr(pos1, pos2 - pos1));
+		pos1 = pos2 + f.size();
+		pos2 = s.find(f, pos1);
+	}
+	
+	v.push_back(s.substr(pos1));
+}
+
+
+
+
+
+
+
 //int main()
 //{
 //	vector<string> v;
 //	string s = "1234&567890&98765&4321";
-//	splitstring(s, v, "&");
+//	//splitstring(s, v, "&");
+//	helper(s, v, "&");
 //	for (auto i : v)
 //		cout << i << ends;
 //	cout << endl;
