@@ -63,8 +63,6 @@ public:
 			b = b->next;
 			s = s->next;
 		}
-
-
 		return true;
 	}
 

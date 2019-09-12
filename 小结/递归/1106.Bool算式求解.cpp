@@ -5,6 +5,36 @@
 using namespace std;
 
 
+   
+// "t", evaluating to True;
+// "f", evaluating to False;
+// "!(expr)", evaluating to the logical NOT of the inner expression expr;
+// "&(expr1,expr2,...)", 
+// evaluating to the logical AND of 2 or more inner expressions expr1,expr2, ...;
+// "|(expr1,expr2,...)", 
+// evaluating to the logical OR of 2 or more inner expressions expr1, expr2, ...
+   
+
+
+   
+// Input: expression = "!(f)"
+// Output : true
+// Example 2 :
+// 
+// Input : expression = "|(f,t)"
+// Output : true
+// Example 3 :
+// 
+// Input : expression = "&(t,f)"
+// Output : false
+// Example 4 :
+// 
+// Input : expression = "|(&(t,f,t),!(t))"
+// Output : false
+   
+
+
+
 class Solution {
 public:
 	bool parseBoolExpr(string expression) {

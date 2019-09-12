@@ -8,7 +8,17 @@
 //  R("a{b,c}{d,e}f{g,h}") = { "abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh",
 //  "acefg", "acefh" }
 //
+
 //
+//Input: "{a,b}{c,{d,e}}"
+//Output : ["ac", "ad", "ae", "bc", "bd", "be"]
+//Example 2 :
+//
+//Input : "{{a,z},a{b,c},{ab,z}}"
+//Output : ["a", "ab", "ac", "z"]
+//Explanation : Each distinct word is written only once in the final answer.
+//
+
 
 
 #include<iostream>
@@ -106,6 +116,8 @@ public:
 };
 
 
+
+//
 //int main()
 //{
 //	string s = "a{b,c}q{d,e}";
@@ -117,9 +129,6 @@ public:
 //	return 0;
 //}
 //
-//
-//
-
 
 
 

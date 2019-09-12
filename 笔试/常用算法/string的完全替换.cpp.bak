@@ -29,6 +29,8 @@ void g(string& s, string a, string b)
 		s.replace(pos, len1, b);
 		pos = s.find(a, pos + len1);
 	}
+
+
 }
 
 
