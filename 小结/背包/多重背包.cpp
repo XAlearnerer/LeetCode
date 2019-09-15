@@ -31,6 +31,9 @@ using namespace std;
 //说明
 //选第一种一个，第二种两个，结果为3x1 + 5x2 = 13。
 
+
+
+
 int main_duochong()
 {
 	int N, V;
@@ -61,3 +64,4 @@ int main_duochong()
 
 	return 0;
 }
+

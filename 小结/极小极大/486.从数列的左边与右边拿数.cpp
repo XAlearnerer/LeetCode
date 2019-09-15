@@ -44,6 +44,7 @@ public:
 		vector<vector<int>> g(n, vector<int>(n, 0));
 		for (int i = 0; i < n; ++i)
 		{
+			f[i][i] = nums[i];
 			for (int j = i - 1; j >= 0; --j)
 			{
 				f[j][i] = max(nums[i] + g[j][i - 1], nums[j] + g[j + 1][i]);
