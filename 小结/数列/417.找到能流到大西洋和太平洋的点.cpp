@@ -18,9 +18,9 @@ using namespace std;
 
 class Solution {
 public:
-	vector<pair<int, int>> pacificAtlantic(vector<vector<int>>& matrix) {
+	vector<vector<int>> pacificAtlantic(vector<vector<int>>& matrix) {
 		if (matrix.empty() || matrix[0].empty()) return {};
-		vector<pair<int, int>> res;
+		vector<vector<int>> res;
 		int m = matrix.size(), n = matrix[0].size();
 		vector<vector<bool>> pacific(m, vector<bool>(n, false));
 		vector<vector<bool>> atlantic(m, vector<bool>(n, false));
